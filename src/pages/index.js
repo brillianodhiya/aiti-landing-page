@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Banner from "@aiti/components/Banner";
 import Headers from "@aiti/components/Headers";
 import SciprtThirdParty from "@aiti/components/SciprtThirdParty";
