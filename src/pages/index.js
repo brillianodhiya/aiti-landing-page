@@ -16,7 +16,6 @@ import ThemeSwitcher from "@aiti/components/ThemeSwitcher";
 import useBackToTop from "@aiti/hooks/useBackToTop";
 import useMobileMenuActivation from "@aiti/hooks/useMobileMenuActivation";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 
 // import { Inter } from "next/font/google";
@@ -26,6 +25,7 @@ import Link from "next/link";
 export default function Home() {
   useMobileMenuActivation();
   useBackToTop();
+
   return (
     <>
       <Head>

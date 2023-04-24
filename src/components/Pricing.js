@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 
 const Pricing = () => {
+  const [isYearly, handlePlanSelect] = React.useState(false);
+
   return (
     <section className="section bg-color-light section-padding">
       <div className="container">
@@ -17,19 +19,30 @@ const Pricing = () => {
           <ul>
             <li className="nav-item">
               <button
-                className="nav-link active"
+                className={`nav-link ${isYearly ? "" : "active"}`}
                 id="yearly-plan-btn"
                 type="button"
+                onClick={() => handlePlanSelect(false)}
               >
                 Billed yearly
               </button>
             </li>
             <li className="nav-item billed-check-box">
-              <input type="checkbox" id="pricing-checkbox" />
+              <input
+                type="checkbox"
+                id="pricing-checkbox"
+                defaultChecked={false}
+                onChange={(e) => handlePlanSelect(e.target.checked)}
+              />
               <label htmlFor="pricing-checkbox" />
             </li>
             <li className="nav-item">
-              <button className="nav-link" id="monthly-plan-btn" type="button">
+              <button
+                className={`nav-link ${isYearly ? "active" : ""}`}
+                id="monthly-plan-btn"
+                type="button"
+                onClick={() => handlePlanSelect(true)}
+              >
                 Billed monthly
               </button>
             </li>
@@ -42,7 +55,7 @@ const Pricing = () => {
             data-sal-duration={800}
             data-sal-delay={100}
           >
-            <div className="pricing-table active">
+            <div className={`pricing-table active`}>
               <div className="star-icon">
                 <i className="fas fa-star" />
               </div>
@@ -50,11 +63,17 @@ const Pricing = () => {
                 <h3 className="title">Professional</h3>
                 <span className="subtitle">A beautiful, simple website</span>
                 <div className="price-wrap">
-                  <div className="yearly-pricing">
+                  <div
+                    className="yearly-pricing"
+                    style={{ display: !isYearly ? "block" : "none" }}
+                  >
                     <span className="amount">$119.99</span>
                     <span className="duration">/yearly</span>
                   </div>
-                  <div className="monthly-pricing">
+                  <div
+                    className="monthly-pricing"
+                    style={{ display: isYearly ? "block" : "none" }}
+                  >
                     <span className="amount">$19.00</span>
                     <span className="duration">/monthly</span>
                   </div>
@@ -85,16 +104,22 @@ const Pricing = () => {
             data-sal-duration={800}
             data-sal-delay={200}
           >
-            <div className="pricing-table">
+            <div className={`pricing-table`}>
               <div className="pricing-header">
                 <h3 className="title">Standard</h3>
                 <span className="subtitle">Small Team</span>
                 <div className="price-wrap">
-                  <div className="yearly-pricing">
+                  <div
+                    className="yearly-pricing"
+                    style={{ display: !isYearly ? "block" : "none" }}
+                  >
                     <span className="amount">$219.99</span>
                     <span className="duration">/yearly</span>
                   </div>
-                  <div className="monthly-pricing">
+                  <div
+                    className="monthly-pricing"
+                    style={{ display: isYearly ? "block" : "none" }}
+                  >
                     <span className="amount">$29.00</span>
                     <span className="duration">/monthly</span>
                   </div>
@@ -130,11 +155,17 @@ const Pricing = () => {
                 <h3 className="title">Ultimate</h3>
                 <span className="subtitle">Large Team</span>
                 <div className="price-wrap">
-                  <div className="yearly-pricing">
+                  <div
+                    className="yearly-pricing"
+                    style={{ display: !isYearly ? "block" : "none" }}
+                  >
                     <span className="amount">$559.99</span>
                     <span className="duration">/yearly</span>
                   </div>
-                  <div className="monthly-pricing">
+                  <div
+                    className="monthly-pricing"
+                    style={{ display: isYearly ? "block" : "none" }}
+                  >
                     <span className="amount">$59.00</span>
                     <span className="duration">/monthly</span>
                   </div>

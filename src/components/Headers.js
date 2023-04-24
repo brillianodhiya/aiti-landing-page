@@ -1,3 +1,4 @@
+import { useStickyHeaderMenu } from "@aiti/hooks/useStickyHeaderMenu";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -5,11 +6,12 @@ import React from "react";
 
 const Headers = () => {
   const router = useRouter();
+  const isSticky = useStickyHeaderMenu();
 
   return (
     <header className="header axil-header header-style-1">
       <div id="axil-sticky-placeholder" />
-      <div className="axil-mainmenu">
+      <div className={`axil-mainmenu ${isSticky ? "axil-sticky" : ""}`}>
         <div className="container">
           <div className="header-navbar">
             <div className="header-logo">

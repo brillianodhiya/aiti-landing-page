@@ -15,13 +15,13 @@
     },
 
     methods: function (e) {
-      axilInit.w();
+      // axilInit.w();
       axilInit.contactForm();
       //   axilInit.axilBackToTop();
-      axilInit.stickyHeaderMenu();
+      // axilInit.stickyHeaderMenu();
       //   axilInit.mobileMenuActivation();
       axilInit.salActivation();
-      axilInit.axilMasonary();
+      // axilInit.axilMasonary();
       axilInit.counterUp();
       axilInit.axilSlickActivation();
       axilInit.magnificPopupActivation();
@@ -30,7 +30,7 @@
       axilInit.menuLinkActive();
       axilInit.audioPlayerActivation();
       axilInit.onePageNav();
-      axilInit.pricingPlan();
+      // axilInit.pricingPlan();
       axilInit.marqueImages();
       axilInit.axilHover();
       axilInit.onePageTopFixed();
@@ -103,25 +103,25 @@
     //     });
     // },
 
-    stickyHeaderMenu: function () {
-      $(window).on("scroll", function () {
-        // Sticky Class Add
-        if ($("body").hasClass("sticky-header")) {
-          var stickyPlaceHolder = $("#axil-sticky-placeholder"),
-            menu = $(".axil-mainmenu"),
-            menuH = menu.outerHeight(),
-            topHeaderH = $(".axil-header-top").outerHeight() || 0,
-            targrtScroll = topHeaderH + 200;
-          if ($(window).scrollTop() > targrtScroll) {
-            menu.addClass("axil-sticky");
-            stickyPlaceHolder.height(menuH);
-          } else {
-            menu.removeClass("axil-sticky");
-            stickyPlaceHolder.height(0);
-          }
-        }
-      });
-    },
+    // stickyHeaderMenu: function () {
+    //   $(window).on("scroll", function () {
+    //     // Sticky Class Add
+    //     if ($("body").hasClass("sticky-header")) {
+    //       var stickyPlaceHolder = $("#axil-sticky-placeholder"),
+    //         menu = $(".axil-mainmenu"),
+    //         menuH = menu.outerHeight(),
+    //         topHeaderH = $(".axil-header-top").outerHeight() || 0,
+    //         targrtScroll = topHeaderH + 200;
+    //       if ($(window).scrollTop() > targrtScroll) {
+    //         menu.addClass("axil-sticky");
+    //         stickyPlaceHolder.height(menuH);
+    //       } else {
+    //         menu.removeClass("axil-sticky");
+    //         stickyPlaceHolder.height(0);
+    //       }
+    //     }
+    //   });
+    // },
 
     // mobileMenuActivation: function (e) {
     //   function resizeClassAdd() {
@@ -289,51 +289,51 @@
       });
     },
 
-    pricingPlan: function () {
-      var yearlySelectBtn = $("#yearly-plan-btn"),
-        monthlySelectBtn = $("#monthly-plan-btn"),
-        monthlyPrice = $(".monthly-pricing"),
-        yearlyPrice = $(".yearly-pricing"),
-        buttonSlide = $("#pricing-checkbox");
+    // pricingPlan: function () {
+    //   var yearlySelectBtn = $("#yearly-plan-btn"),
+    //     monthlySelectBtn = $("#monthly-plan-btn"),
+    //     monthlyPrice = $(".monthly-pricing"),
+    //     yearlyPrice = $(".yearly-pricing"),
+    //     buttonSlide = $("#pricing-checkbox");
 
-      $(monthlySelectBtn).on("click", function () {
-        buttonSlide.prop("checked", true);
-        $(this)
-          .addClass("active")
-          .parent(".nav-item")
-          .siblings()
-          .children()
-          .removeClass("active");
-        monthlyPrice.css("display", "block");
-        yearlyPrice.css("display", "none");
-      });
+    //   $(monthlySelectBtn).on("click", function () {
+    //     buttonSlide.prop("checked", true);
+    //     $(this)
+    //       .addClass("active")
+    //       .parent(".nav-item")
+    //       .siblings()
+    //       .children()
+    //       .removeClass("active");
+    //     monthlyPrice.css("display", "block");
+    //     yearlyPrice.css("display", "none");
+    //   });
 
-      $(yearlySelectBtn).on("click", function () {
-        buttonSlide.prop("checked", false);
-        $(this)
-          .addClass("active")
-          .parent(".nav-item")
-          .siblings()
-          .children()
-          .removeClass("active");
-        monthlyPrice.css("display", "none");
-        yearlyPrice.css("display", "block");
-      });
+    //   $(yearlySelectBtn).on("click", function () {
+    //     buttonSlide.prop("checked", false);
+    //     $(this)
+    //       .addClass("active")
+    //       .parent(".nav-item")
+    //       .siblings()
+    //       .children()
+    //       .removeClass("active");
+    //     monthlyPrice.css("display", "none");
+    //     yearlyPrice.css("display", "block");
+    //   });
 
-      $(buttonSlide).change(function () {
-        if ($('input[id="pricing-checkbox"]:checked').length > 0) {
-          monthlySelectBtn.addClass("active");
-          yearlySelectBtn.removeClass("active");
-          monthlyPrice.css("display", "block");
-          yearlyPrice.css("display", "none");
-        } else {
-          yearlySelectBtn.addClass("active");
-          monthlySelectBtn.removeClass("active");
-          monthlyPrice.css("display", "none");
-          yearlyPrice.css("display", "block");
-        }
-      });
-    },
+    //   $(buttonSlide).change(function () {
+    //     if ($('input[id="pricing-checkbox"]:checked').length > 0) {
+    //       monthlySelectBtn.addClass("active");
+    //       yearlySelectBtn.removeClass("active");
+    //       monthlyPrice.css("display", "block");
+    //       yearlyPrice.css("display", "none");
+    //     } else {
+    //       yearlySelectBtn.addClass("active");
+    //       monthlySelectBtn.removeClass("active");
+    //       monthlyPrice.css("display", "none");
+    //       yearlyPrice.css("display", "block");
+    //     }
+    //   });
+    // },
 
     marqueImages: function () {
       $(".marque-images").each(function () {
