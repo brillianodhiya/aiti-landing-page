@@ -9,5 +9,9 @@ import "@aiti/styles/css/app.css";
 import "@aiti/styles/css/vendor/sal.css";
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Component {...pageProps} />
+    </>
+  );
 }
