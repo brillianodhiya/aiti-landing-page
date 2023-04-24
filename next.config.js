@@ -8,6 +8,8 @@ const nextConfig = {
   compiler: {
     styledComponents: {
       minify: true,
+      pure: true,
+      transpileTemplateLiterals: true,
     },
   },
 };
