@@ -110,7 +110,7 @@ const Banner = () => {
           data-sal-duration={500}
           data-sal-delay={200}
         >
-          <img src="/assets/media/others/bubble-19.png" alt="Bubble" />
+          <img src="/assets/media/others/bubble-19.webp" alt="Bubble" />
         </li>
         <li
           className="shape shape-3"
@@ -118,7 +118,7 @@ const Banner = () => {
           data-sal-duration={500}
           data-sal-delay={700}
         >
-          <img src="/assets/media/others/hand-2.png" alt="Hand" />
+          <img src="/assets/media/others/hand-2.webp" alt="Hand" />
         </li>
         <li
           className="shape shape-4"

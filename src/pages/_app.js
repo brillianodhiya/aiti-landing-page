@@ -8,6 +8,10 @@ import "@aiti/styles/css/vendor/green-audio-player.min.css";
 import "@aiti/styles/css/app.css";
 import "@aiti/styles/css/vendor/sal.css";
 
+export function reportWebVitals(metric) {
+  console.log(metric);
+}
+
 export default function App({ Component, pageProps }) {
   return (
     <>
