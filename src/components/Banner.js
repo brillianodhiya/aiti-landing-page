@@ -15,10 +15,9 @@ const Banner = () => {
               data-sal-duration={1000}
               data-sal-delay={100}
             >
-              <h1 className="title">Digital product design agency</h1>
+              <h1 className="title">Solusi Digital Kreatif Bisnis Anda</h1>
               <span className="subtitle">
-                Create live segments and target the right people for messages
-                based on their behaviors.
+              Solusi Desain Produk Digital yang Tepat untuk Mengembangkan Bisnis Anda
               </span>
               <Link
                 href="/contact"

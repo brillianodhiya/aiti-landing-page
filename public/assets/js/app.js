@@ -20,9 +20,9 @@
       //   axilInit.axilBackToTop();
       // axilInit.stickyHeaderMenu();
       //   axilInit.mobileMenuActivation();
-      axilInit.salActivation();
+      // axilInit.salActivation();
       // axilInit.axilMasonary();
-      axilInit.counterUp();
+      // axilInit.counterUp();
       axilInit.axilSlickActivation();
       axilInit.magnificPopupActivation();
       axilInit.countdownInit(".countdown", "2021/12/01");
@@ -36,9 +36,9 @@
       axilInit.onePageTopFixed();
     },
 
-    w: function (e) {
-      this._window.on("load", axilInit.l).on("scroll", axilInit.res);
-    },
+    // w: function (e) {
+    //   this._window.on("load", axilInit.l).on("scroll", axilInit.res);
+    // },
 
     contactForm: function () {
       $(".axil-contact-form").on("submit", function (e) {
@@ -153,66 +153,66 @@
     //   resizeClassAdd();
     // },
 
-    salActivation: function () {
-      sal({
-        threshold: 0.1,
-        once: true,
-      });
-    },
+    // salActivation: function () {
+    // sal({
+    //   threshold: 0.1,
+    //   once: true,
+    // });
+    // },
 
-    axilMasonary: function () {
-      $(".axil-isotope-wrapper").imagesLoaded(function () {
-        // filter items on button click
-        $(".isotope-button").on("click", "button", function () {
-          var filterValue = $(this).attr("data-filter");
-          $grid.isotope({
-            filter: filterValue,
-          });
-        });
+    // axilMasonary: function () {
+    //   $(".axil-isotope-wrapper").imagesLoaded(function () {
+    //     // filter items on button click
+    //     $(".isotope-button").on("click", "button", function () {
+    //       var filterValue = $(this).attr("data-filter");
+    //       $grid.isotope({
+    //         filter: filterValue,
+    //       });
+    //     });
 
-        // init Isotope
-        var $grid = $(".isotope-list").isotope({
-          itemSelector: ".project",
-          percentPosition: true,
-          transitionDuration: "0.7s",
-          layoutMode: "fitRows",
-          masonry: {
-            // use outer width of grid-sizer for columnWidth
-            columnWidth: 1,
-          },
-        });
-      });
+    //     // init Isotope
+    //     var $grid = $(".isotope-list").isotope({
+    //       itemSelector: ".project",
+    //       percentPosition: true,
+    //       transitionDuration: "0.7s",
+    //       layoutMode: "fitRows",
+    //       masonry: {
+    //         // use outer width of grid-sizer for columnWidth
+    //         columnWidth: 1,
+    //       },
+    //     });
+    //   });
 
-      $(".isotope-button button").on("click", function (event) {
-        $(this).siblings(".is-checked").removeClass("is-checked");
-        $(this).addClass("is-checked");
-        event.preventDefault();
-      });
+    //   $(".isotope-button button").on("click", function (event) {
+    //     $(this).siblings(".is-checked").removeClass("is-checked");
+    //     $(this).addClass("is-checked");
+    //     event.preventDefault();
+    //   });
 
-      // Masonry
-      var galleryIsoContainer = $("#no-equal-gallery");
-      if (galleryIsoContainer.length) {
-        var blogGallerIso = galleryIsoContainer.imagesLoaded(function () {
-          blogGallerIso.isotope({
-            itemSelector: ".no-equal-item",
-            masonry: {
-              columnWidth: ".no-equal-item",
-            },
-          });
-        });
-      }
-    },
+    //   // Masonry
+    //   var galleryIsoContainer = $("#no-equal-gallery");
+    //   if (galleryIsoContainer.length) {
+    //     var blogGallerIso = galleryIsoContainer.imagesLoaded(function () {
+    //       blogGallerIso.isotope({
+    //         itemSelector: ".no-equal-item",
+    //         masonry: {
+    //           columnWidth: ".no-equal-item",
+    //         },
+    //       });
+    //     });
+    //   }
+    // },
 
-    counterUp: function () {
-      var _counter = $(".count");
-      if (_counter.length) {
-        _counter.counterUp({
-          delay: 10,
-          time: 1000,
-          triggerOnce: true,
-        });
-      }
-    },
+    // counterUp: function () {
+    // var _counter = $(".count");
+    // if (_counter.length) {
+    //   _counter.counterUp({
+    //     delay: 10,
+    //     time: 1000,
+    //     triggerOnce: true,
+    //   });
+    // }
+    // },
 
     axilSlickActivation: function (e) {
       $(".slick-slider").slick();

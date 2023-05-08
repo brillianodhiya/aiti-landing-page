@@ -15,7 +15,7 @@ const Headers = () => {
         <div className="container">
           <div className="header-navbar">
             <div className="header-logo">
-              <Link href="/" replace>
+              <Link href="/" key={"home"}>
                 <Image
                   className="light-version-logo"
                   src="assets/media/logo.svg"
@@ -25,7 +25,7 @@ const Headers = () => {
                   priority
                 />
               </Link>
-              <Link href="/" replace>
+              <Link href="/" key={"home"}>
                 <Image
                   className="dark-version-logo"
                   src="assets/media/logo-3.svg"
@@ -34,7 +34,7 @@ const Headers = () => {
                   height={60}
                 />
               </Link>
-              <Link href="/" replace>
+              <Link href="/" key={"home"}>
                 <Image
                   className="sticky-logo"
                   src="assets/media/logo-2.svg"
@@ -50,7 +50,7 @@ const Headers = () => {
                 <div className="d-block d-lg-none">
                   <div className="mobile-nav-header">
                     <div className="mobile-nav-logo">
-                      <Link href="/">
+                      <Link href="/" key={"home"}>
                         <Image
                           className="light-mode"
                           src="assets/media/logo-2.svg"
@@ -88,6 +88,7 @@ const Headers = () => {
                     <Link
                       className={router.pathname == "/services" ? "active" : ""}
                       href={"/services"}
+                      key={"services"}
                     >
                       Services
                     </Link>
@@ -98,6 +99,7 @@ const Headers = () => {
                         router.pathname == "/portofolio" ? "active" : ""
                       }
                       href={"/portofolio"}
+                      key={"portofolio"}
                     >
                       Portfolio
                     </Link>
@@ -106,6 +108,7 @@ const Headers = () => {
                     <Link
                       className={router.pathname == "/blog" ? "active" : ""}
                       href={"/blog"}
+                      key={"blog"}
                     >
                       Blog
                     </Link>
@@ -114,6 +117,7 @@ const Headers = () => {
                     <Link
                       className={router.pathname == "/our-team" ? "active" : ""}
                       href={"/our-team"}
+                      key={"our-team"}
                     >
                       Our Team
                     </Link>
@@ -122,6 +126,7 @@ const Headers = () => {
                     <Link
                       className={router.pathname == "/contact" ? "active" : ""}
                       href={"/contact"}
+                      key={"contact"}
                     >
                       Contact
                     </Link>

@@ -27,7 +27,7 @@ const Projects = () => {
           <div className="row row-35 isotope-list">
             <div className="col-md-6 project branding">
               <div className="project-grid">
-                <div className="thumbnail" style={{ minHeight: "460px" }}>
+                <div className="thumbnail">
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
@@ -47,7 +47,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6 project mobile">
               <div className="project-grid">
-                <div className="thumbnail" style={{ minHeight: "460px" }}>
+                <div className="thumbnail">
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
@@ -69,7 +69,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6 project branding">
               <div className="project-grid">
-                <div className="thumbnail" style={{ minHeight: "460px" }}>
+                <div className="thumbnail">
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
@@ -89,7 +89,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6 project mobile">
               <div className="project-grid">
-                <div className="thumbnail" style={{ minHeight: "460px" }}>
+                <div className="thumbnail">
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
@@ -109,7 +109,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6 project branding">
               <div className="project-grid">
-                <div className="thumbnail" style={{ minHeight: "460px" }}>
+                <div className="thumbnail">
                   <Link href="single-portfolio">
                     <Image
                       width={610}
@@ -129,7 +129,7 @@ const Projects = () => {
             </div>
             <div className="col-md-6 project mobile">
               <div className="project-grid">
-                <div className="thumbnail" style={{ minHeight: "460px" }}>
+                <div className="thumbnail">
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
