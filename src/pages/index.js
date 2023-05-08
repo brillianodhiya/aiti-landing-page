@@ -22,9 +22,9 @@ export default function Home() {
   useBackToTop();
   useSal();
 
-  React.useEffect(() => {
-    console.log(window.$(".slick-slider"));
-  }, []);
+  // React.useEffect(() => {
+  //   console.log(window.$(".slick-slider"));
+  // }, []);
 
   return (
     <>
