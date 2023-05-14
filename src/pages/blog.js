@@ -1,9 +1,16 @@
+import CallHooks from "@aiti/components/CallHooks";
+import CallToAction from "@aiti/components/CallToAction";
+import Footer from "@aiti/components/Footer";
+import OffCanvas from "@aiti/components/OffCanvas";
+import { Banner } from "@aiti/components/blog/Banner";
+import { Posts } from "@aiti/components/blog/Posts";
+import { Widget } from "@aiti/components/blog/Widget";
 import Head from "next/head";
 import React from "react";
-
 const Blog = () => {
   return (
     <div>
+      <CallHooks />
       <Head>
         <title>
           Solusi Digital Berkualitas Tinggi dari AITI Lokal | Ali Inovasi
@@ -21,9 +28,30 @@ const Blog = () => {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/media/favicon.png"
+          href="/assets/media/favicon.png"
         />
       </Head>
+      <Banner />
+      <section class="section-padding-equal">
+        <div class="container">
+          <div class="row row-40">
+            <Posts />
+            <Widget />
+          </div>
+        </div>
+      </section>
+      {/*=====================================*/}
+      {/*=     Call To Action Area Start     =*/}
+      {/*=====================================*/}
+      <CallToAction />
+      {/*=====================================*/}
+      {/*=        Footer Area Start       	=*/}
+      {/*=====================================*/}
+      <Footer />
+      {/*=====================================*/}
+      {/*=       Offcanvas Menu Area       	=*/}
+      {/*=====================================*/}
+      <OffCanvas />
     </div>
   );
 };
