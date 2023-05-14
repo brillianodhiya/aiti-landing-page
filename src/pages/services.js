@@ -1,10 +1,13 @@
 import Head from "next/head";
 import React from "react";
 import Image from "next/image";
+import CallHooks from "@aiti/components/CallHooks";
 
 const Services = () => {
   return (
     <>
+      <CallHooks />
+
       <Head>
         <title>
           Solusi Digital Berkualitas Tinggi dari AITI Lokal | Ali Inovasi

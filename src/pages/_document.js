@@ -64,11 +64,6 @@ export default function Document() {
           strategy="beforeInteractive"
           src="assets/js/vendor/tilt.js"
         ></Script>
-
-        <Script
-          strategy="beforeInteractive"
-          src="assets/js/vendor/bootstrap.min.js"
-        ></Script>
       </Head>
       <body>
         <Main />

@@ -2,6 +2,7 @@ import About from "@aiti/components/About";
 import Banner from "@aiti/components/Banner";
 import Blog from "@aiti/components/Blog";
 import Brand from "@aiti/components/Brand";
+import CallHooks from "@aiti/components/CallHooks";
 import CallToAction from "@aiti/components/CallToAction";
 import CaseStudy from "@aiti/components/CaseStudy";
 import CenterUp from "@aiti/components/CenterUp";
@@ -11,23 +12,17 @@ import Pricing from "@aiti/components/Pricing";
 import Projects from "@aiti/components/Projects";
 import ServiceArea from "@aiti/components/ServiceArea";
 import Testimonial from "@aiti/components/Testimonial";
-import useBackToTop from "@aiti/hooks/useBackToTop";
-import useMobileMenuActivation from "@aiti/hooks/useMobileMenuActivation";
-import useSal from "@aiti/hooks/useSal";
 import Head from "next/head";
 import React from "react";
 
 export default function Home() {
-  useMobileMenuActivation();
-  useBackToTop();
-  useSal();
-
   // React.useEffect(() => {
   //   console.log(window.$(".slick-slider"));
   // }, []);
 
   return (
     <>
+      <CallHooks />
       <Head>
         <title>
           Solusi Digital Berkualitas Tinggi dari AITI Lokal | Ali Inovasi
