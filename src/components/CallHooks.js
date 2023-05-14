@@ -7,7 +7,6 @@ const CallHooks = () => {
   useMobileMenuActivation();
   useBackToTop();
   useSal();
-  return <></>;
 };
 
 export default CallHooks;
