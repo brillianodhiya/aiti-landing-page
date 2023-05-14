@@ -1,9 +1,17 @@
+import { Banner } from "@aiti/components/portofolio/Banner";
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
+import CallHooks from "@aiti/components/CallHooks";
+import { Project } from "@aiti/components/portofolio/Project";
+import CallToAction from "@aiti/components/CallToAction";
+import Footer from "@aiti/components/Footer";
+import OffCanvas from "@aiti/components/OffCanvas";
 
 const Portofolio = () => {
   return (
     <div>
+      <CallHooks />
       <Head>
         <title>
           Solusi Digital Berkualitas Tinggi dari AITI Lokal | Ali Inovasi
@@ -21,9 +29,23 @@ const Portofolio = () => {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/media/favicon.png"
+          href="/assets/media/favicon.png"
         />
       </Head>
+      <Banner />
+      <Project />
+      {/*=====================================*/}
+      {/*=     Call To Action Area Start     =*/}
+      {/*=====================================*/}
+      <CallToAction />
+      {/*=====================================*/}
+      {/*=        Footer Area Start       	=*/}
+      {/*=====================================*/}
+      <Footer />
+      {/*=====================================*/}
+      {/*=       Offcanvas Menu Area       	=*/}
+      {/*=====================================*/}
+      <OffCanvas />
     </div>
   );
 };
