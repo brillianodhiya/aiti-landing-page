@@ -32,9 +32,9 @@ const Blog = () => {
         />
       </Head>
       <Banner />
-      <section class="section-padding-equal">
-        <div class="container">
-          <div class="row row-40">
+      <section className="section-padding-equal">
+        <div className="container">
+          <div className="row row-40">
             <Posts />
             <Widget />
           </div>

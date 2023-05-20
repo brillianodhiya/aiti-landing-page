@@ -2,21 +2,21 @@ import React from "react";
 import Image from "next/image";
 export const ContentStrategy = () => {
   return (
-    <div class="section section-padding bg-color-light" id="section6">
-      <div class="container">
-        <div class="section-heading heading-left">
-          <span class="subtitle">Service</span>
-          <h2 class="title">Content strategy</h2>
+    <div className="section section-padding bg-color-light" id="section6">
+      <div className="container">
+        <div className="section-heading heading-left">
+          <span className="subtitle">Service</span>
+          <h2 className="title">Content strategy</h2>
         </div>
-        <div class="row">
+        <div className="row">
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-sal="slide-up"
             data-sal-duration="800"
             data-sal-delay="100"
           >
-            <div class="services-grid service-style-2">
-              <div class="thumbnail">
+            <div className="services-grid service-style-2">
+              <div className="thumbnail">
                 <Image
                   src="/assets/media/icon/icon-45.png"
                   alt="icon"
@@ -24,8 +24,8 @@ export const ContentStrategy = () => {
                   height={90}
                 />
               </div>
-              <div class="content">
-                <h5 class="title">
+              <div className="content">
+                <h5 className="title">
                   <a href="service-content-strategy.html">
                     Web Audit Practices
                   </a>
@@ -34,20 +34,20 @@ export const ContentStrategy = () => {
                   industry-icon-1 Web Audit Practices A reputable marketing
                   strategy company runs a complete digital,
                 </p>
-                <a href="service-content-strategy.html" class="more-btn">
+                <a href="service-content-strategy.html" className="more-btn">
                   Find out more
                 </a>
               </div>
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-sal="slide-up"
             data-sal-duration="800"
             data-sal-delay="200"
           >
-            <div class="services-grid service-style-2">
-              <div class="thumbnail">
+            <div className="services-grid service-style-2">
+              <div className="thumbnail">
                 <Image
                   src="/assets/media/icon/icon-46.png"
                   alt="icon"
@@ -55,8 +55,8 @@ export const ContentStrategy = () => {
                   height={90}
                 />
               </div>
-              <div class="content">
-                <h5 class="title">
+              <div className="content">
+                <h5 className="title">
                   <a href="service-content-strategy.html">
                     Marketing Flexibility
                   </a>
@@ -65,20 +65,20 @@ export const ContentStrategy = () => {
                   Do you cater to other businesses, investors, decision-makers
                   or consumers? A trustworthy digital
                 </p>
-                <a href="service-content-strategy.html" class="more-btn">
+                <a href="service-content-strategy.html" className="more-btn">
                   Find out more
                 </a>
               </div>
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-sal="slide-up"
             data-sal-duration="800"
             data-sal-delay="300"
           >
-            <div class="services-grid service-style-2">
-              <div class="thumbnail">
+            <div className="services-grid service-style-2">
+              <div className="thumbnail">
                 <Image
                   src="/assets/media/icon/icon-47.png"
                   alt="icon"
@@ -86,8 +86,8 @@ export const ContentStrategy = () => {
                   height={90}
                 />
               </div>
-              <div class="content">
-                <h5 class="title">
+              <div className="content">
+                <h5 className="title">
                   <a href="service-content-strategy.html">
                     Advertising Strategy
                   </a>
@@ -96,7 +96,7 @@ export const ContentStrategy = () => {
                   Promoting your products and services online requires
                   cutting-edge organic and paid search strategies to rise
                 </p>
-                <a href="service-content-strategy.html" class="more-btn">
+                <a href="service-content-strategy.html" className="more-btn">
                   Find out more
                 </a>
               </div>

@@ -3,21 +3,21 @@ import Image from "next/image";
 
 export const Banner = () => {
   return (
-    <div class="breadcrum-area">
-      <div class="container">
-        <div class="breadcrumb">
-          <ul class="list-unstyled">
+    <div className="breadcrum-area">
+      <div className="container">
+        <div className="breadcrumb">
+          <ul className="list-unstyled">
             <li>
               <a href="index-1.html">Home</a>
             </li>
-            <li class="active">Blog</li>
+            <li className="active">Blog</li>
           </ul>
-          <h1 class="title h2">Blog</h1>
+          <h1 className="title h2">Blog</h1>
         </div>
       </div>
-      <ul class="shape-group-8 list-unstyled">
+      <ul className="shape-group-8 list-unstyled">
         <li
-          class="shape shape-1"
+          className="shape shape-1"
           data-sal="slide-right"
           data-sal-duration="500"
           data-sal-delay="100"
@@ -30,7 +30,7 @@ export const Banner = () => {
           />
         </li>
         <li
-          class="shape shape-2"
+          className="shape shape-2"
           data-sal="slide-left"
           data-sal-duration="500"
           data-sal-delay="200"
@@ -43,7 +43,7 @@ export const Banner = () => {
           />
         </li>
         <li
-          class="shape shape-3"
+          className="shape shape-3"
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="300"

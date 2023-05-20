@@ -40,7 +40,7 @@ const Services = () => {
       </Head>
 
       <Banner />
-      <div class="service-scroll-navigation-area">
+      <div className="service-scroll-navigation-area">
         <SectionContainer />
         <DesignSection />
         <DevelopmentSection />

@@ -3,15 +3,15 @@ import React from "react";
 
 export const Posts = () => {
   return (
-    <div class="col-lg-8">
-      <div class="blog-grid">
-        <h3 class="title">
+    <div className="col-lg-8">
+      <div className="blog-grid">
+        <h3 className="title">
           <a href="single-blog.html">
             How to Increase Your ROI Through scientific SEM?
           </a>
         </h3>
-        <div class="author">
-          <div class="author-thumb">
+        <div className="author">
+          <div className="author-thumb">
             <Image
               src="/assets/media/blog/author-1.png"
               alt="Blog Author"
@@ -19,15 +19,15 @@ export const Posts = () => {
               height={80}
             />
           </div>
-          <div class="info">
-            <h6 class="author-name">Theresa Underwood</h6>
-            <ul class="blog-meta list-unstyled">
+          <div className="info">
+            <h6 className="author-name">Theresa Underwood</h6>
+            <ul className="blog-meta list-unstyled">
               <li>Sep 10, 2021</li>
               <li>9 min to read</li>
             </ul>
           </div>
         </div>
-        <div class="post-thumbnail">
+        <div className="post-thumbnail">
           <a href="single-blog.html">
             <Image
               src="/assets/media/blog/blog-3.png"
@@ -43,30 +43,30 @@ export const Posts = () => {
           It’s simple: goal-setting. This is an absolutely essential practice
           for any digital marketer who knows how to execute their campaigns
         </p>
-        <a href="single-blog.html" class="axil-btn btn-borderd btn-large">
+        <a href="single-blog.html" className="axil-btn btn-borderd btn-large">
           Read More
         </a>
       </div>
-      <div class="blog-grid blog-without-thumb">
-        <h3 class="title">
+      <div className="blog-grid blog-without-thumb">
+        <h3 className="title">
           <a href="single-blog.html">Twice Profit Than Before You Ever Got</a>
         </h3>
-        <div class="author">
-          <div class="info">
-            <h6 class="author-name">Theresa Underwood</h6>
-            <ul class="blog-meta list-unstyled">
+        <div className="author">
+          <div className="info">
+            <h6 className="author-name">Theresa Underwood</h6>
+            <ul className="blog-meta list-unstyled">
               <li>Sep 9, 2021</li>
               <li>15 min to read</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="blog-grid">
-        <h3 class="title">
+      <div className="blog-grid">
+        <h3 className="title">
           <a href="single-blog.html">Cloud Hosting Growing Faster Ever</a>
         </h3>
-        <div class="author">
-          <div class="author-thumb">
+        <div className="author">
+          <div className="author-thumb">
             <Image
               src="/assets/media/blog/author-2.png"
               alt="Blog Author"
@@ -74,15 +74,15 @@ export const Posts = () => {
               height={80}
             />
           </div>
-          <div class="info">
-            <h6 class="author-name">Theresa Underwood</h6>
-            <ul class="blog-meta list-unstyled">
+          <div className="info">
+            <h6 className="author-name">Theresa Underwood</h6>
+            <ul className="blog-meta list-unstyled">
               <li>Sep 7, 2021</li>
               <li>5 min to read</li>
             </ul>
           </div>
         </div>
-        <div class="post-thumbnail">
+        <div className="post-thumbnail">
           <a href="single-blog.html">
             <Image
               src="/assets/media/blog/blog-4.png"
@@ -98,13 +98,13 @@ export const Posts = () => {
           It’s simple: goal-setting. This is an absolutely essential practice
           for any digital marketer who knows how to execute their campaigns...
         </p>
-        <a href="single-blog.html" class="axil-btn btn-borderd btn-large">
+        <a href="single-blog.html" className="axil-btn btn-borderd btn-large">
           Read More
         </a>
       </div>
-      <div class="blog-grid blog-without-thumb">
+      <div className="blog-grid blog-without-thumb">
         <blockquote>
-          <h5 class="title">
+          <h5 className="title">
             <a href="single-blog-quote.html">
               “ The goal of a designer is to listen, observe, understand,
               sympathize, empathize, synthesize, and glean insights that enable
@@ -112,24 +112,24 @@ export const Posts = () => {
             </a>
           </h5>
         </blockquote>
-        <div class="author">
-          <div class="info">
-            <h6 class="author-name">Theresa Underwood</h6>
-            <ul class="blog-meta list-unstyled">
+        <div className="author">
+          <div className="info">
+            <h6 className="author-name">Theresa Underwood</h6>
+            <ul className="blog-meta list-unstyled">
               <li>Sep 12, 2021</li>
               <li>10 min to read</li>
             </ul>
           </div>
         </div>
       </div>
-      <div class="blog-grid blog-thumb-slide">
-        <h3 class="title">
+      <div className="blog-grid blog-thumb-slide">
+        <h3 className="title">
           <a href="single-blog-gallery.html">
             eCommerce Marketing Statistics You Should Know in 2021.
           </a>
         </h3>
-        <div class="author">
-          <div class="author-thumb">
+        <div className="author">
+          <div className="author-thumb">
             <Image
               src="/assets/media/blog/author-2.png"
               alt="Blog Author"
@@ -137,20 +137,20 @@ export const Posts = () => {
               height={80}
             />
           </div>
-          <div class="info">
-            <h6 class="author-name">Theresa Underwood</h6>
-            <ul class="blog-meta list-unstyled">
+          <div className="info">
+            <h6 className="author-name">Theresa Underwood</h6>
+            <ul className="blog-meta list-unstyled">
               <li>Sep 15, 2021</li>
               <li>8 min to read</li>
             </ul>
           </div>
         </div>
-        <div class="post-thumbnail">
+        <div className="post-thumbnail">
           <div
-            class="slick-slider slick-arrow-nav slick-dot-nav"
+            className="slick-slider slick-arrow-nav slick-dot-nav"
             data-slick='{"infinite": true, "autoplay": true, "arrows": true, "dots": true, "slidesToShow": 1}'
           >
-            <div class="slick-slide">
+            <div className="slick-slide">
               <a href="single-blog.html">
                 <Image
                   src="/assets/media/blog/blog-3.png"
@@ -160,7 +160,7 @@ export const Posts = () => {
                 />
               </a>
             </div>
-            <div class="slick-slide">
+            <div className="slick-slide">
               <a href="single-blog.html">
                 <Image
                   src="/assets/media/blog/blog-4.png"
@@ -182,19 +182,19 @@ export const Posts = () => {
         </p>
         <a
           href="single-blog-gallery.html"
-          class="axil-btn btn-borderd btn-large"
+          className="axil-btn btn-borderd btn-large"
         >
           Read More
         </a>
       </div>
-      <div class="blog-grid mb-0">
-        <h3 class="title">
+      <div className="blog-grid mb-0">
+        <h3 className="title">
           <a href="single-blog-video.html">
             Follow your own design process, whatever gets you to the outcome.
           </a>
         </h3>
-        <div class="author">
-          <div class="author-thumb">
+        <div className="author">
+          <div className="author-thumb">
             <Image
               src="/assets/media/blog/author-2.png"
               alt="Blog Author"
@@ -202,15 +202,15 @@ export const Posts = () => {
               height={80}
             />
           </div>
-          <div class="info">
-            <h6 class="author-name">Theresa Underwood</h6>
-            <ul class="blog-meta list-unstyled">
+          <div className="info">
+            <h6 className="author-name">Theresa Underwood</h6>
+            <ul className="blog-meta list-unstyled">
               <li>Sep 10, 2021</li>
               <li>9 min to read</li>
             </ul>
           </div>
         </div>
-        <div class="post-thumbnail">
+        <div className="post-thumbnail">
           <a href="single-blog-video.html">
             <Image
               src="/assets/media/blog/blog-4.png"
@@ -219,12 +219,12 @@ export const Posts = () => {
               height={450}
             />
           </a>
-          <div class="popup-video">
+          <div className="popup-video">
             <a
               href="../../../watch.html?v=1iIZeIy7TqM"
-              class="play-btn popup-youtube"
+              className="play-btn popup-youtube"
             >
-              <i class="fas fa-play"></i>
+              <i className="fas fa-play"></i>
             </a>
           </div>
         </div>
@@ -236,45 +236,48 @@ export const Posts = () => {
           they take the form of a fleeting experience or an heirloom that will
           last for generations.
         </p>
-        <a href="single-blog-video.html" class="axil-btn btn-borderd btn-large">
+        <a
+          href="single-blog-video.html"
+          className="axil-btn btn-borderd btn-large"
+        >
           Read More
         </a>
       </div>
-      <div class="pagination">
+      <div className="pagination">
         <ul>
           <li>
-            <a class="prev page-numbers" href="#">
-              <i class="fal fa-arrow-left"></i>
+            <a className="prev page-numbers" href="#">
+              <i className="fal fa-arrow-left"></i>
             </a>
           </li>
           <li>
-            <a href="#" class="page-numbers current">
+            <a href="#" className="page-numbers current">
               1
             </a>
           </li>
           <li>
-            <a class="page-numbers" href="#">
+            <a className="page-numbers" href="#">
               2
             </a>
           </li>
           <li>
-            <a class="page-numbers" href="#">
+            <a className="page-numbers" href="#">
               3
             </a>
           </li>
           <li>
-            <a class="page-numbers" href="#">
+            <a className="page-numbers" href="#">
               4
             </a>
           </li>
           <li>
-            <a class="page-numbers" href="#">
+            <a className="page-numbers" href="#">
               5
             </a>
           </li>
           <li>
-            <a class="next page-numbers" href="#">
-              <i class="fal fa-arrow-right"></i>
+            <a className="next page-numbers" href="#">
+              <i className="fal fa-arrow-right"></i>
             </a>
           </li>
         </ul>

@@ -3,20 +3,20 @@ import React from "react";
 
 export const Widget = () => {
   return (
-    <div class="col-lg-4">
-      <div class="axil-sidebar">
-        <div class="widget widget-search">
-          <h4 class="widget-title">Search</h4>
-          <form action="#" class="blog-search">
+    <div className="col-lg-4">
+      <div className="axil-sidebar">
+        <div className="widget widget-search">
+          <h4 className="widget-title">Search</h4>
+          <form action="#" className="blog-search">
             <input type="text" placeholder="Search…" />
-            <button class="search-button">
-              <i class="fal fa-search"></i>
+            <button className="search-button">
+              <i className="fal fa-search"></i>
             </button>
           </form>
         </div>
-        <div class="widget widget-categories">
-          <h4 class="widget-title">Categories</h4>
-          <ul class="category-list list-unstyled">
+        <div className="widget widget-categories">
+          <h4 className="widget-title">Categories</h4>
+          <ul className="category-list list-unstyled">
             <li>
               <a href="blog-category.html">Agency news</a>
             </li>
@@ -37,48 +37,48 @@ export const Widget = () => {
             </li>
           </ul>
         </div>
-        <div class="widget widge-social-share">
-          <div class="blog-share">
-            <h5 class="title">Follow:</h5>
-            <ul class="social-list list-unstyled">
+        <div className="widget widge-social-share">
+          <div className="blog-share">
+            <h5 className="title">Follow:</h5>
+            <ul className="social-list list-unstyled">
               <li>
                 <a href="../../../index.htm">
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
                 <a href="../../../index-1.htm">
-                  <i class="fab fa-twitter"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="../../../index-4.htm">
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="../../../index-3.htm">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
                 <a href="../../../index-4.htm">
-                  <i class="fab fa-instagram"></i>
+                  <i className="fab fa-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="../../../index-8.htm">
-                  <i class="fab fa-youtube"></i>
+                  <i className="fab fa-youtube"></i>
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="widget widget-recent-post">
-          <h4 class="widget-title">Recent post</h4>
-          <div class="post-list-wrap">
-            <div class="single-post">
-              <div class="post-thumbnail">
+        <div className="widget widget-recent-post">
+          <h4 className="widget-title">Recent post</h4>
+          <div className="post-list-wrap">
+            <div className="single-post">
+              <div className="post-thumbnail">
                 <a href="single-blog.html">
                   <Image
                     src="/assets/media/blog/blog-5.png"
@@ -88,20 +88,20 @@ export const Widget = () => {
                   />
                 </a>
               </div>
-              <div class="post-content">
-                <h6 class="title">
+              <div className="post-content">
+                <h6 className="title">
                   <a href="single-blog.html">
                     Take ownership and question the status quo in.
                   </a>
                 </h6>
-                <ul class="blog-meta list-unstyled">
+                <ul className="blog-meta list-unstyled">
                   <li>Sep 10, 2021</li>
                   <li>9 min to read</li>
                 </ul>
               </div>
             </div>
-            <div class="single-post">
-              <div class="post-thumbnail">
+            <div className="single-post">
+              <div className="post-thumbnail">
                 <a href="single-blog.html">
                   <Image
                     src="/assets/media/blog/blog-6.png"
@@ -111,20 +111,20 @@ export const Widget = () => {
                   />
                 </a>
               </div>
-              <div class="post-content">
-                <h6 class="title">
+              <div className="post-content">
+                <h6 className="title">
                   <a href="single-blog.html">
                     Take ownership and question the status quo in.
                   </a>
                 </h6>
-                <ul class="blog-meta list-unstyled">
+                <ul className="blog-meta list-unstyled">
                   <li>Sep 15, 2021</li>
                   <li>15 min to read</li>
                 </ul>
               </div>
             </div>
-            <div class="single-post">
-              <div class="post-thumbnail">
+            <div className="single-post">
+              <div className="post-thumbnail">
                 <a href="single-blog.html">
                   <Image
                     src="/assets/media/blog/blog-7.png"
@@ -134,13 +134,13 @@ export const Widget = () => {
                   />
                 </a>
               </div>
-              <div class="post-content">
-                <h6 class="title">
+              <div className="post-content">
+                <h6 className="title">
                   <a href="single-blog.html">
                     Take ownership and question the status quo in.
                   </a>
                 </h6>
-                <ul class="blog-meta list-unstyled">
+                <ul className="blog-meta list-unstyled">
                   <li>Sep 5, 2021</li>
                   <li>8 min to read</li>
                 </ul>
@@ -148,7 +148,7 @@ export const Widget = () => {
             </div>
           </div>
         </div>
-        <div class="widget widget-banner-ad">
+        <div className="widget widget-banner-ad">
           <a href="#">
             <Image
               src="/assets/media/banner/widget-banner.png"

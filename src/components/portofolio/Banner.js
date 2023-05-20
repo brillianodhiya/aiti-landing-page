@@ -3,28 +3,28 @@ import React from "react";
 
 export const Banner = () => {
   return (
-    <div class="breadcrum-area breadcrumb-banner">
-      <div class="container">
+    <div className="breadcrum-area breadcrumb-banner">
+      <div className="container">
         <div
-          class="section-heading heading-left"
+          className="section-heading heading-left"
           data-sal="slide-right"
           data-sal-duration="1000"
           data-sal-delay="300"
         >
-          <h1 class="title h2">Our projects</h1>
+          <h1 className="title h2">Our projects</h1>
           <p>
             A quick view of industry specific problems solved with design by the
             awesome team at Abstrak.
           </p>
         </div>
         <div
-          class="banner-thumbnail"
+          className="banner-thumbnail"
           data-sal="slide-up"
           data-sal-duration="1000"
           data-sal-delay="400"
         >
           <Image
-            class="paralax-image"
+            className="paralax-image"
             src="/assets/media/banner/banner-thumb-1.png"
             alt="Illustration"
             width={1007}
@@ -32,9 +32,9 @@ export const Banner = () => {
           />
         </div>
       </div>
-      <ul class="shape-group-8 list-unstyled">
+      <ul className="shape-group-8 list-unstyled">
         <li
-          class="shape shape-1"
+          className="shape shape-1"
           data-sal="slide-right"
           data-sal-duration="500"
           data-sal-delay="100"
@@ -47,7 +47,7 @@ export const Banner = () => {
           />
         </li>
         <li
-          class="shape shape-2"
+          className="shape shape-2"
           data-sal="slide-left"
           data-sal-duration="500"
           data-sal-delay="200"
@@ -60,7 +60,7 @@ export const Banner = () => {
           />
         </li>
         <li
-          class="shape shape-3"
+          className="shape shape-3"
           data-sal="slide-up"
           data-sal-duration="500"
           data-sal-delay="300"
