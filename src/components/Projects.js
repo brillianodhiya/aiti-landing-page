@@ -7,9 +7,14 @@ const Projects = () => {
     <section className="section section-padding-2">
       <div className="container">
         <div className="section-heading heading-left mb--40">
-          <span className="subtitle">Our Project</span>
-          <h2 className="title">
-            Beberapa project <br /> dari tim kita.
+          <span className="subtitle">Project Kami</span>
+          <h2
+            className="title"
+            style={{
+              fontWeight: "bold",
+            }}
+          >
+            Beberapa project <br /> dari tim kami.
           </h2>
         </div>
         <div className="axil-isotope-wrapper">
@@ -32,16 +37,16 @@ const Projects = () => {
                     <Image
                       width={610}
                       height={460}
-                      src="/assets/media/project/project-1.png"
+                      src="/assets/media/project/hoops-1.png"
                       alt="project"
                     />
                   </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="/single-portfolio">Creative Agency</Link>
+                    <Link href="/single-portfolio">E-Commerce Hoops</Link>
                   </h4>
-                  <span className="subtitle">Full Branding, Website, App</span>
+                  <span className="subtitle">Website, CMS</span>
                 </div>
               </div>
             </div>

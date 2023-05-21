@@ -19,10 +19,17 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Featured Case Study</span>
-                    <h2 className="title">Dashboard IoT Monitoring System</h2>
+                    <span className="subtitle">Studi Kasus Populer</span>
+                    <h2
+                      className="title"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Sistem Monitoring IoT Dashboard
+                    </h2>
                     <p>
-                      Monitoring system ini dapat digunakan untuk memantau
+                      Sistem Monitoring ini dapat digunakan untuk memantau
                       kondisi suatu peralatan atau mesin secara real-time.
                     </p>
                     <p>
@@ -57,14 +64,23 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Featured Case Study</span>
-                    <h2 className="title">Live2d VTuber Project - Lea</h2>
+                    <span className="subtitle">Studi Kasus Populer</span>
+                    <h2
+                      className="title"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Live2d VTuber Project - Bellavia
+                    </h2>
                     <p>
                       VTuber adalah sebutan untuk Virtual Youtuber, yaitu
                       Youtuber yang menggunakan avatar 2D atau 3D sebagai
                       representasi dirinya.
                     </p>
-                    <p>Kami membuat avatar 2D untuk VTuber yang bernama Lea.</p>
+                    <p>
+                      Kami membuat avatar 2D untuk VTuber yang bernama Bellavia.
+                    </p>
                     <Link
                       href="/single-case-study"
                       className="axil-btn btn-fill-primary btn-large"
@@ -93,8 +109,13 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Featured Case Study</span>
-                    <h2 className="title">
+                    <span className="subtitle">Studi Kasus Populer</span>
+                    <h2
+                      className="title"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
                       Aplikasi Absensi Berbasis Web dan Mobile
                     </h2>
                     <p>

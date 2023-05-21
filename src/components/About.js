@@ -10,7 +10,12 @@ const About = () => {
             <div className="about-us">
               <div className="section-heading heading-left mb-0">
                 <span className="subtitle">Tentang Kami</span>
-                <h2 className="title mb--40">
+                <h2
+                  className="title mb--40"
+                  style={{
+                    fontWeight: "bold",
+                  }}
+                >
                   Kreatifitas dan Inovasi Kami untuk Anda
                 </h2>
                 <p>

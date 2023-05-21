@@ -6,7 +6,7 @@ const CenterUp = () => {
     <section className="section section-padding bg-color-dark">
       <div className="container">
         <div className="section-heading heading-light">
-          <span className="subtitle">Featured Case Study</span>
+          <span className="subtitle">Tentang kami</span>
           <h2 className="title">Perjalanan startup kami.</h2>
           <p>
             Kami bersama dengan klien kami telah menciptakan beberapa solusi
@@ -30,10 +30,10 @@ const CenterUp = () => {
                 />
               </div>
               <div className="count-number h2">
-                <span className="number count">15</span>
+                <span className="number count">3</span>
                 <span className="symbol">+</span>
               </div>
-              <h6 className="title">Years of operation</h6>
+              <h6 className="title">Tahun perjalan</h6>
             </div>
           </div>
           <div
@@ -52,10 +52,10 @@ const CenterUp = () => {
                 />
               </div>
               <div className="count-number h2">
-                <span className="number count">360</span>
+                <span className="number count">15</span>
                 <span className="symbol">+</span>
               </div>
-              <h6 className="title">Projects deliverd</h6>
+              <h6 className="title">Project Diterima</h6>
             </div>
           </div>
           <div
@@ -74,10 +74,10 @@ const CenterUp = () => {
                 />
               </div>
               <div className="count-number h2">
-                <span className="number count">600</span>
+                <span className="number count">11</span>
                 <span className="symbol">+</span>
               </div>
-              <h6 className="title">Specialist</h6>
+              <h6 className="title">Spesialis</h6>
             </div>
           </div>
           <div
@@ -96,10 +96,10 @@ const CenterUp = () => {
                 />
               </div>
               <div className="count-number h2">
-                <span className="number count">64</span>
-                <span className="symbol">+</span>
+                <span className="number count">24</span>
+                <span className="symbol">h</span>
               </div>
-              <h6 className="title">Years of operation</h6>
+              <h6 className="title">Servis 24 jam</h6>
             </div>
           </div>
         </div>

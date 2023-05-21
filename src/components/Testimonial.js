@@ -6,11 +6,18 @@ const Testimonial = () => {
     <section className="section section-padding">
       <div className="container">
         <div className="section-heading heading-left">
-          <span className="subtitle">Testimonial</span>
-          <h2 className="title">From getting started</h2>
+          <span className="subtitle">Apa kata orang tentang kami?</span>
+          <h2
+            className="title"
+            style={{
+              fontWeight: "bold",
+            }}
+          >
+            Beberapa testimoni
+          </h2>
           <p>
-            Nulla facilisi. Nullam in magna id dolor blandit rutrum eget
-            vulputate augue sed eu leo eget risus imperdiet.
+            Kami bersama dengan klien kami telah menciptakan beberapa solusi
+            digital yang luar biasa untuk bisnis mereka.
           </p>
         </div>
         <div className="row">
@@ -21,31 +28,32 @@ const Testimonial = () => {
             data-sal-delay={100}
           >
             <div className="testimonial-grid active">
-              <span className="social-media">
+              {/* <span className="social-media">
                 <Image
-                  width={103}
+                  width={50}
                   height={50}
-                  src="/assets/media/icon/yelp-2.png"
-                  alt="Yelp"
+                  src="/assets/media/icon/lazisnu.png"
+                  alt="Lazisnu"
                 />
-              </span>
+              </span> */}
               <p>
-                “ Donec metus lorem, vulputate at sapien sit amet, auctor
-                iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                velit. ”
+                “ Inovasi yang bagus dengan beralih ke era digital sekarang,
+                memang diperlukan anak muda yang punya banyak ide kreatif. ”
               </p>
               <div className="author-info">
                 <div className="thumb">
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/media/testimonial/testimonial-1.png"
-                    alt="Google Review"
+                    src="/assets/media/testimonial/testimoni1.jpg"
+                    alt="Review Lazisnu Trenggalek"
                   />
                 </div>
                 <div className="content">
-                  <span className="name">Darrell Steward</span>
-                  <span className="designation">Executive Chairman</span>
+                  <span className="name">Abdur Rohman</span>
+                  <span className="designation">
+                    Sekretaris Lzisnu Trenggalek
+                  </span>
                 </div>
               </div>
             </div>
@@ -57,14 +65,14 @@ const Testimonial = () => {
             data-sal-delay={200}
           >
             <div className="testimonial-grid">
-              <span className="social-media">
+              {/* <span className="social-media">
                 <Image
                   width={50}
                   height={50}
                   src="/assets/media/icon/google-2.png"
                   alt="google"
                 />
-              </span>
+              </span> */}
               <p>
                 “ Donec metus lorem, vulputate at sapien sit amet, auctor
                 iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
@@ -75,13 +83,13 @@ const Testimonial = () => {
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/media/testimonial/testimonial-2.png"
-                    alt="Google Review"
+                    src="/assets/media/testimonial/testimoni3.png"
+                    alt="Review Vtuber Bellavia"
                   />
                 </div>
                 <div className="content">
-                  <span className="name">Savannah Nguyen</span>
-                  <span className="designation">Executive Chairman</span>
+                  <span className="name">Bellavia</span>
+                  <span className="designation">VTuber</span>
                 </div>
               </div>
             </div>
@@ -93,31 +101,23 @@ const Testimonial = () => {
             data-sal-delay={300}
           >
             <div className="testimonial-grid">
-              <span className="social-media">
-                <Image
-                  width={46}
-                  height={50}
-                  src="/assets/media/icon/fb-2.png"
-                  alt="Facebook"
-                />
-              </span>
               <p>
-                “ Donec metus lorem, vulputate at sapien sit amet, auctor
-                iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                velit. ”
+                “ Dengan Monitoring menggunakan IoT membuat bisnis saya semakin
+                mudah di atur dan lebih hemat dalam penggunaan sumber daya yang
+                ada.”
               </p>
               <div className="author-info">
                 <div className="thumb">
                   <Image
                     width={50}
                     height={50}
-                    src="/assets/media/testimonial/testimonial-3.png"
-                    alt="Google Review"
+                    src="/assets/media/testimonial/hafidh.jpg"
+                    alt="Review Hanfidh Hanan"
                   />
                 </div>
                 <div className="content">
-                  <span className="name">Floyd Miles</span>
-                  <span className="designation">Executive Chairman</span>
+                  <span className="name">Hanfidh Hanan</span>
+                  <span className="designation">Wirausaha</span>
                 </div>
               </div>
             </div>
