@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export const BusinessSection = () => {
   return (
     <div className="section section-padding bg-color-light" id="section4">
@@ -26,15 +27,15 @@ export const BusinessSection = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-business.html">Digital strategy</a>
+                  <Link href="/service/service-business">Digital strategy</Link>
                 </h5>
                 <p>
                   We design professional looking yet simple Logo. Our designs
                   are search engine and user friendly.
                 </p>
-                <a href="service-business.html" className="more-btn">
+                <Link href="/service/service-business" className="more-btn">
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -55,15 +56,17 @@ export const BusinessSection = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-business.html">Business consulting</a>
+                  <Link href="/service/service-business">
+                    Business consulting
+                  </Link>
                 </h5>
                 <p>
                   We design professional looking yet simple websites. Our
                   designs are search engine and user friendly.
                 </p>
-                <a href="service-business.html" className="more-btn">
+                <Link href="/service/service-business" className="more-btn">
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -84,15 +87,15 @@ export const BusinessSection = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-business.html">Content writing</a>
+                  <Link href="/service/service-business">Content writing</Link>
                 </h5>
                 <p>
                   We design professional looking yet Mobile Apps. Our designs
                   are search engine and user friendly.
                 </p>
-                <a href="service-business.html" className="more-btn">
+                <Link href="/service/service-business" className="more-btn">
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -113,15 +116,15 @@ export const BusinessSection = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-business.html">Reporting</a>
+                  <Link href="/service/service-business">Reporting</Link>
                 </h5>
                 <p>
                   We design professional looking yet Mobile Apps. Our designs
                   are search engine and user friendly.
                 </p>
-                <a href="service-business.html" className="more-btn">
+                <Link href="/service/service-business" className="more-btn">
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>

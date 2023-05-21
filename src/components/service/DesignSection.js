@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const DesignSection = () => {
   return (
@@ -28,15 +29,17 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="service-design.html">Logo &amp; Branding</a>
+                    <Link href="/service/service-design">
+                      Logo &amp; Branding
+                    </Link>
                   </h5>
                   <p>
                     We design professional looking yet simple Logo. Our designs
                     are search engine and user friendly.
                   </p>
-                  <a href="service-design.html" className="more-btn">
+                  <Link href="/service/service-design" className="more-btn">
                     Find out more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -57,15 +60,15 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="service-design.html">Website Design</a>
+                    <Link href="/service/service-design">Website Design</Link>
                   </h5>
                   <p>
                     We design professional looking yet simple websites. Our
                     designs are search engine and user friendly.
                   </p>
-                  <a href="service-design.html" className="more-btn">
+                  <Link href="/service/service-design" className="more-btn">
                     Find out more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -86,15 +89,17 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="service-design.html">Mobile app design</a>
+                    <Link href="/service/service-design">
+                      Mobile app design
+                    </Link>
                   </h5>
                   <p>
                     We design professional looking yet Mobile Apps. Our designs
                     are search engine and user friendly.
                   </p>
-                  <a href="service-design.html" className="more-btn">
+                  <Link href="/service/service-design" className="more-btn">
                     Find out more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -115,15 +120,17 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="service-design.html">Graphic/print design</a>
+                    <Link href="/service/service-design">
+                      Graphic/print design
+                    </Link>
                   </h5>
                   <p>
                     From simple Content Management System to complex eCommerce
                     developer, we cover it all.
                   </p>
-                  <a href="service-design.html" className="more-btn">
+                  <Link href="/service/service-design" className="more-btn">
                     Find out more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -144,15 +151,15 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <a href="service-design.html">Video production</a>
+                    <Link href="/service/service-design">Video production</Link>
                   </h5>
                   <p>
                     From simple Content Management System to complex eCommerce
                     developer, we cover it all.
                   </p>
-                  <a href="service-design.html" className="more-btn">
+                  <Link href="/service/service-design" className="more-btn">
                     Find out more
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

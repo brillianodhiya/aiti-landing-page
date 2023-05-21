@@ -34,18 +34,18 @@ const Blog = () => {
               </div>
               <div className="post-content">
                 <h5 className="title">
-                  <a href="single-blog-2.html">
+                  <Link href="/blog/single-blog">
                     How To Use a Remarketing Strategy To Get More
-                  </a>
+                  </Link>
                 </h5>
                 <p>
                   Demand generation is a constant struggle for any business.
                   Each marketing strategy you employ has...
                 </p>
-                <a href="single-blog-2.html" className="more-btn">
+                <Link href="/blog/single-blog" className="more-btn">
                   Learn more
                   <i className="far fa-angle-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -68,18 +68,18 @@ const Blog = () => {
               </div>
               <div className="post-content">
                 <h5 className="title">
-                  <a href="single-blog-3.html">
+                  <Link href="/blog/single-blog">
                     SEO Statistics You Should Know in 2021
-                  </a>
+                  </Link>
                 </h5>
                 <p>
                   Organic search has the potential to capture more than 40
                   percent of your gross revenue...
                 </p>
-                <a href="single-blog-3.html" className="more-btn">
+                <Link href="/blog/single-blog" className="more-btn">
                   Learn more
                   <i className="far fa-angle-right" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>

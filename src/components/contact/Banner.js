@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const Banner = () => {
@@ -8,7 +9,7 @@ export const Banner = () => {
         <div className="breadcrumb">
           <ul className="list-unstyled">
             <li>
-              <a href="/">Home</a>
+              <Link href="/">Home</Link>
             </li>
             <li className="active">Contact</li>
           </ul>

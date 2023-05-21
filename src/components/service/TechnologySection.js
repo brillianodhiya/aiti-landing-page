@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 Image;
 export const TechnologySection = () => {
@@ -27,15 +28,15 @@ export const TechnologySection = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-technology.html">Hosting</a>
+                  <Link href="/service/service-technology">Hosting</Link>
                 </h5>
                 <p>
                   We design professional looking yet simple Logo. Our designs
                   are search engine and user friendly.
                 </p>
-                <a href="service-technology.html" className="more-btn">
+                <Link href="/service/service-technology" className="more-btn">
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -56,15 +57,17 @@ export const TechnologySection = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-technology.html">Big data analysis</a>
+                  <Link href="/service/service-technology">
+                    Big data analysis
+                  </Link>
                 </h5>
                 <p>
                   We design professional looking yet simple websites. Our
                   designs are search engine and user friendly.
                 </p>
-                <a href="service-technology.html" className="more-btn">
+                <Link href="/service/service-technology" className="more-btn">
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>

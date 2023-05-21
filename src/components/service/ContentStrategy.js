@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export const ContentStrategy = () => {
   return (
     <div className="section section-padding bg-color-light" id="section6">
@@ -26,17 +27,20 @@ export const ContentStrategy = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-content-strategy.html">
+                  <Link href="/service/service-content-strategy">
                     Web Audit Practices
-                  </a>
+                  </Link>
                 </h5>
                 <p>
                   industry-icon-1 Web Audit Practices A reputable marketing
                   strategy company runs a complete digital,
                 </p>
-                <a href="service-content-strategy.html" className="more-btn">
+                <Link
+                  href="/service/service-content-strategy"
+                  className="more-btn"
+                >
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -57,17 +61,20 @@ export const ContentStrategy = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-content-strategy.html">
+                  <Link href="/service/service-content-strategy">
                     Marketing Flexibility
-                  </a>
+                  </Link>
                 </h5>
                 <p>
                   Do you cater to other businesses, investors, decision-makers
                   or consumers? A trustworthy digital
                 </p>
-                <a href="service-content-strategy.html" className="more-btn">
+                <Link
+                  href="/service/service-content-strategy"
+                  className="more-btn"
+                >
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -88,17 +95,20 @@ export const ContentStrategy = () => {
               </div>
               <div className="content">
                 <h5 className="title">
-                  <a href="service-content-strategy.html">
+                  <Link href="/service/service-content-strategy">
                     Advertising Strategy
-                  </a>
+                  </Link>
                 </h5>
                 <p>
                   Promoting your products and services online requires
                   cutting-edge organic and paid search strategies to rise
                 </p>
-                <a href="service-content-strategy.html" className="more-btn">
+                <Link
+                  href="/service/service-content-strategy"
+                  className="more-btn"
+                >
                   Find out more
-                </a>
+                </Link>
               </div>
             </div>
           </div>
