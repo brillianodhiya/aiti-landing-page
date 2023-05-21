@@ -66,7 +66,7 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="service/development">Development</Link>
+                  <Link href="service/development">Pengembangan Aplikasi</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to
@@ -96,7 +96,7 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/marketing">Illustration</Link>
+                  <Link href="/service/marketing">Illustrasi</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to
@@ -156,7 +156,7 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/technology">Live2D Character</Link>
+                  <Link href="/service/technology">Karakter Live2D</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to

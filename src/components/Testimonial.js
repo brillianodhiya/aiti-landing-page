@@ -74,10 +74,10 @@ const Testimonial = () => {
                 />
               </span> */}
               <p>
-                “ Donec metus lorem, vulputate at sapien sit amet, auctor
-                iaculis lorem. In vel hendrerit nisi. Vestibulum eget risus
-                velit. ”
+                “ Desain karakter unik dan pengerjaan nya cepat, bahkan dapat
+                beberapa ekspresi.”
               </p>
+              <br />
               <div className="author-info">
                 <div className="thumb">
                   <Image
