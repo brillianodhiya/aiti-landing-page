@@ -3,7 +3,8 @@ import CallToAction from "@aiti/components/CallToAction";
 import Footer from "@aiti/components/Footer";
 import OffCanvas from "@aiti/components/OffCanvas";
 import { Banner } from "@aiti/components/blog/Banner";
-import { Posts } from "@aiti/components/blog/Posts";
+import { Post } from "@aiti/components/blog/Post";
+import { RecentPost } from "@aiti/components/blog/RecentPost";
 import { Widget } from "@aiti/components/blog/Widget";
 import Head from "next/head";
 import React from "react";
@@ -31,15 +32,16 @@ const Blog = () => {
           href="/assets/media/favicon.png"
         />
       </Head>
-      <Banner />
+      <Banner title="How to Increase Your ROI Through scientific SEM?" />
       <section className="section-padding-equal">
         <div className="container">
           <div className="row row-40">
-            <Posts />
+            <Post />
             <Widget />
           </div>
         </div>
       </section>
+      <RecentPost />
       {/*=====================================*/}
       {/*=     Call To Action Area Start     =*/}
       {/*=====================================*/}

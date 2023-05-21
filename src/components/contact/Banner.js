@@ -1,19 +1,18 @@
-import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import React from "react";
 
-export const Banner = ({ title = "Blog" }) => {
+export const Banner = () => {
   return (
     <div className="breadcrum-area">
       <div className="container">
         <div className="breadcrumb">
           <ul className="list-unstyled">
             <li>
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </li>
-            <li className="active">Blog</li>
+            <li className="active">Contact</li>
           </ul>
-          <h1 className="title h2">{title}</h1>
+          <h1 className="title h2">Contact</h1>
         </div>
       </div>
       <ul className="shape-group-8 list-unstyled">
@@ -37,9 +36,9 @@ export const Banner = ({ title = "Blog" }) => {
           data-sal-delay="200"
         >
           <Image
-            src="/assets/media/others/bubble-10.png"
+            src="/assets/media/others/bubble-17.png"
             alt="Bubble"
-            width={475}
+            width={457}
             height={565}
           />
         </li>

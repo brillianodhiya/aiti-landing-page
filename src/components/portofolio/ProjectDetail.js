@@ -102,7 +102,7 @@ export const ProjectDetail = () => {
                 every business. A holistic, user-centric perspective is what
                 truly sets one apart.
               </p>
-              <Link href="contact.html" className="axil-btn btn-fill-primary">
+              <Link href="/contact" className="axil-btn btn-fill-primary">
                 Get it Now
               </Link>
             </div>
@@ -168,25 +168,25 @@ export const ProjectDetail = () => {
                     </div>
                   </div>
                   <div className="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
+                    <h2 className="accordion-header" id="headingThree">
                       <button
-                        class="accordion-button collapsed"
+                        className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseThree"
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        <i class="fal fa-globe"></i>Development
+                        <i className="fal fa-globe"></i>Development
                       </button>
                     </h2>
                     <div
                       id="collapseThree"
-                      class="accordion-collapse collapse"
+                      className="accordion-collapse collapse"
                       aria-labelledby="headingThree"
                       data-bs-parent="#choose-accordion"
                     >
-                      <div class="accordion-body">
+                      <div className="accordion-body">
                         Aenean hendrerit laoreet vehicula. Nullam convallis
                         augue at enim gravida pellentesque.
                       </div>
@@ -198,29 +198,29 @@ export const ProjectDetail = () => {
           </div>
         </div>
       </section>
-      <div class="section section-padding-equal bg-color-light">
-        <div class="container">
-          <div class="about-expert">
-            <div class="thumbnail">
+      <div className="section section-padding-equal bg-color-light">
+        <div className="container">
+          <div className="about-expert">
+            <div className="thumbnail">
               <Image
                 src="/assets/media/about/about-1.png"
                 alt="Thumbnail"
                 width={1070}
                 height={710}
               />
-              <div class="popup-video">
+              <div className="popup-video">
                 <Link
                   href="../../../watch.html?v=1iIZeIy7TqM"
-                  class="play-btn popup-youtube"
+                  className="play-btn popup-youtube"
                 >
-                  <i class="fas fa-play"></i>
+                  <i className="fas fa-play"></i>
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <ul class="shape-group-16 list-unstyled">
-          <li class="shape shape-1">
+        <ul className="shape-group-16 list-unstyled">
+          <li className="shape shape-1">
             <Image
               src="/assets/media/others/circle-2.png"
               alt="circle"
@@ -228,7 +228,7 @@ export const ProjectDetail = () => {
               height={888}
             />
           </li>
-          <li class="shape shape-2">
+          <li className="shape shape-2">
             <Image
               src="/assets/media/others/bubble-2.png"
               alt="Line"
@@ -236,7 +236,7 @@ export const ProjectDetail = () => {
               height={150}
             />
           </li>
-          <li class="shape shape-3">
+          <li className="shape shape-3">
             <Image
               src="/assets/media/others/bubble-1.png"
               alt="Line"

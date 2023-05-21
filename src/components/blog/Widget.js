@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const Widget = () => {
@@ -18,22 +19,22 @@ export const Widget = () => {
           <h4 className="widget-title">Categories</h4>
           <ul className="category-list list-unstyled">
             <li>
-              <a href="blog-category.html">Agency news</a>
+              <Link href="blog-category.html">Agency news</Link>
             </li>
             <li>
-              <a href="blog-category.html">Digital Marketing</a>
+              <Link href="blog-category.html">Digital Marketing</Link>
             </li>
             <li>
-              <a href="blog-category.html">Information technology</a>
+              <Link href="blog-category.html">Information technology</Link>
             </li>
             <li>
-              <a href="blog-category.html">New ideas</a>
+              <Link href="blog-category.html">New ideas</Link>
             </li>
             <li>
-              <a href="blog-category.html">Uncategorized</a>
+              <Link href="blog-category.html">Uncategorized</Link>
             </li>
             <li>
-              <a href="blog-category.html">Marketing &amp; branding</a>
+              <Link href="blog-category.html">Marketing &amp; branding</Link>
             </li>
           </ul>
         </div>
@@ -42,34 +43,34 @@ export const Widget = () => {
             <h5 className="title">Follow:</h5>
             <ul className="social-list list-unstyled">
               <li>
-                <a href="../../../index.htm">
+                <Link href="/">
                   <i className="fab fa-facebook-f"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../../../index-1.htm">
+                <Link href="/">
                   <i className="fab fa-twitter"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../../../index-4.htm">
+                <Link href="/">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../../../index-3.htm">
+                <Link href="/">
                   <i className="fab fa-linkedin-in"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../../../index-4.htm">
+                <Link href="../../../index-4.htm">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="../../../index-8.htm">
+                <Link href="../../../index-8.htm">
                   <i className="fab fa-youtube"></i>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -79,20 +80,20 @@ export const Widget = () => {
           <div className="post-list-wrap">
             <div className="single-post">
               <div className="post-thumbnail">
-                <a href="single-blog.html">
+                <Link href="single-blog.html">
                   <Image
                     src="/assets/media/blog/blog-5.png"
                     alt="Blog"
                     width={100}
                     height={80}
                   />
-                </a>
+                </Link>
               </div>
               <div className="post-content">
                 <h6 className="title">
-                  <a href="single-blog.html">
+                  <Link href="single-blog.html">
                     Take ownership and question the status quo in.
-                  </a>
+                  </Link>
                 </h6>
                 <ul className="blog-meta list-unstyled">
                   <li>Sep 10, 2021</li>
@@ -102,20 +103,20 @@ export const Widget = () => {
             </div>
             <div className="single-post">
               <div className="post-thumbnail">
-                <a href="single-blog.html">
+                <Link href="single-blog.html">
                   <Image
                     src="/assets/media/blog/blog-6.png"
                     alt="Blog"
                     width={100}
                     height={80}
                   />
-                </a>
+                </Link>
               </div>
               <div className="post-content">
                 <h6 className="title">
-                  <a href="single-blog.html">
+                  <Link href="single-blog.html">
                     Take ownership and question the status quo in.
-                  </a>
+                  </Link>
                 </h6>
                 <ul className="blog-meta list-unstyled">
                   <li>Sep 15, 2021</li>
@@ -125,20 +126,20 @@ export const Widget = () => {
             </div>
             <div className="single-post">
               <div className="post-thumbnail">
-                <a href="single-blog.html">
+                <Link href="single-blog.html">
                   <Image
                     src="/assets/media/blog/blog-7.png"
                     alt="Blog"
                     width={100}
                     height={80}
                   />
-                </a>
+                </Link>
               </div>
               <div className="post-content">
                 <h6 className="title">
-                  <a href="single-blog.html">
+                  <Link href="single-blog.html">
                     Take ownership and question the status quo in.
-                  </a>
+                  </Link>
                 </h6>
                 <ul className="blog-meta list-unstyled">
                   <li>Sep 5, 2021</li>
@@ -149,14 +150,14 @@ export const Widget = () => {
           </div>
         </div>
         <div className="widget widget-banner-ad">
-          <a href="#">
+          <Link href="#">
             <Image
               src="/assets/media/banner/widget-banner.png"
               alt="banner"
               width={390}
               height={778}
             />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

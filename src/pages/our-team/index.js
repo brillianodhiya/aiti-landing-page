@@ -1,15 +1,17 @@
 import CallHooks from "@aiti/components/CallHooks";
+import CallToAction from "@aiti/components/CallToAction";
 import Footer from "@aiti/components/Footer";
 import OffCanvas from "@aiti/components/OffCanvas";
-import { Banner } from "@aiti/components/contact/Banner";
-import { ContactArea } from "@aiti/components/contact/ContactArea";
-import { LocationArea } from "@aiti/components/contact/LocationArea";
+import { AboutArea } from "@aiti/components/team/AboutArea";
+import { Banner } from "@aiti/components/team/Banner";
+import { ExpertsArea } from "@aiti/components/team/ExpertsArea";
+import { TeamArea } from "@aiti/components/team/TeamArea";
+
 import Head from "next/head";
 import React from "react";
-
-const Contact = () => {
+const OurTeam = () => {
   return (
-    <>
+    <div>
       <CallHooks />
       <Head>
         <title>
@@ -28,24 +30,27 @@ const Contact = () => {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/media/favicon.png"
+          href="/assets/media/favicon.png"
         />
       </Head>
       <Banner />
-      <ContactArea />
-      <LocationArea />
+      <ExpertsArea />
+      <TeamArea />
+      <AboutArea />
+      {/*=====================================*/}
+      {/*=     Call To Action Area Start     =*/}
+      {/*=====================================*/}
+      <CallToAction />
       {/*=====================================*/}
       {/*=        Footer Area Start       	=*/}
       {/*=====================================*/}
-      <div className="pt--150 pt_lg--100 pt_md--80 pt_sm--60">
-        <Footer />
-      </div>
+      <Footer />
       {/*=====================================*/}
       {/*=       Offcanvas Menu Area       	=*/}
       {/*=====================================*/}
       <OffCanvas />
-    </>
+    </div>
   );
 };
 
-export default Contact;
+export default OurTeam;
