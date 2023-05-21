@@ -6,7 +6,7 @@ const Brand = () => {
     <section className="section section-padding bg-color-dark">
       <div className="container">
         <div className="section-heading heading-light-left">
-          <span className="subtitle">Teknologi kami</span>
+          <span className="subtitle">Beberapa Teknologi kami</span>
           <h2 className="title">Teknologi yang kami gunakan</h2>
           <p>
             Kami menggunakan teknologi terbaru untuk membangun aplikasi yang
@@ -223,11 +223,107 @@ const Brand = () => {
               <Image
                 width={100}
                 height={100}
-                src="/assets/media/icon/deno.png"
+                src="/assets/media/icon/hashrock_simple.png"
                 alt="Deno"
                 style={{
-                  marginTop: "32px",
+                  marginTop: "30px",
                   marginLeft: "44px",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="col-lg-3 col-6"
+            data-sal="slide-up"
+            data-sal-duration={500}
+            data-sal-delay={700}
+          >
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                width={100}
+                height={100}
+                src="/assets/media/icon/ai.png"
+                alt="Adobe Illustrator"
+                style={{
+                  marginTop: "30px",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="col-lg-3 col-6"
+            data-sal="slide-up"
+            data-sal-duration={500}
+            data-sal-delay={700}
+          >
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                width={70}
+                height={70}
+                src="/assets/media/icon/figma.png"
+                alt="Figma"
+                style={{
+                  marginTop: "30px",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="col-lg-3 col-6"
+            data-sal="slide-up"
+            data-sal-duration={500}
+            data-sal-delay={700}
+          >
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                width={100}
+                height={100}
+                src="/assets/media/icon/ibispaint.png"
+                alt="Ibis Paint"
+                style={{
+                  marginTop: "30px",
+                }}
+              />
+            </div>
+          </div>
+          <div
+            className="col-lg-3 col-6"
+            data-sal="slide-up"
+            data-sal-duration={500}
+            data-sal-delay={700}
+          >
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                width={100}
+                height={100}
+                src="/assets/media/icon/procreate.png"
+                alt="Procreate"
+                style={{
+                  marginTop: "30px",
                 }}
               />
             </div>
