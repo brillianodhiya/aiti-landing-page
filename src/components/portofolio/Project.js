@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export const Project = () => {
   return (
     <section className="section section-padding-equal pt--200 pt_md--80 pt_sm--60">
@@ -26,18 +27,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project branding">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-1.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Creative Agency</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Creative Agency
+                    </Link>
                   </h4>
                   <span className="subtitle">Full Branding, Website, App</span>
                 </div>
@@ -46,18 +49,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project mobile">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-2.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Digital Marketing</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Digital Marketing
+                    </Link>
                   </h4>
                   <span className="subtitle">Logo, Website & Mobile App</span>
                 </div>
@@ -66,18 +71,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project branding">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-3.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Digital Agency</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Digital Agency
+                    </Link>
                   </h4>
                   <span className="subtitle">Website, UI/UX</span>
                 </div>
@@ -86,18 +93,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project mobile">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-4.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Plan Management</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Plan Management
+                    </Link>
                   </h4>
                   <span className="subtitle">Branding, Website, IOS App</span>
                 </div>
@@ -106,18 +115,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project branding">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-5.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Social Engagement</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Social Engagement
+                    </Link>
                   </h4>
                   <span className="subtitle">Design, Development</span>
                 </div>
@@ -126,18 +137,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project branding">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-6.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Technical SEO</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Technical SEO
+                    </Link>
                   </h4>
                   <span className="subtitle">Logo, Webapp, App</span>
                 </div>
@@ -146,18 +159,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project mobile">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-1.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Creative Agency</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Creative Agency
+                    </Link>
                   </h4>
                   <span className="subtitle">Full Branding, Website, App</span>
                 </div>
@@ -166,18 +181,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project branding">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-2.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Digital Marketing</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Digital Marketing
+                    </Link>
                   </h4>
                   <span className="subtitle">Logo, Website & Mobile App</span>
                 </div>
@@ -186,18 +203,20 @@ export const Project = () => {
             <div className="col-xl-4 col-md-6 project mobile">
               <div className="project-grid">
                 <div className="thumbnail">
-                  <a href="single-portfolio.html">
+                  <Link href="/portofolio/single-portfolio">
                     <Image
                       src="/assets/media/project/project-3.png"
                       alt="project"
                       height={460}
                       width={610}
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <a href="single-portfolio.html">Digital Agency</a>
+                    <Link href="/portofolio/single-portfolio">
+                      Digital Agency
+                    </Link>
                   </h4>
                   <span className="subtitle">Website, UI/UX</span>
                 </div>
@@ -205,9 +224,9 @@ export const Project = () => {
             </div>
           </div>
           <div className="more-project-btn">
-            <a href="#" className="axil-btn btn-fill-primary">
+            <Link href="#" className="axil-btn btn-fill-primary">
               Discover More Projects
-            </a>
+            </Link>
           </div>
         </div>
       </div>

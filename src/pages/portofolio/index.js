@@ -8,7 +8,7 @@ import CallToAction from "@aiti/components/CallToAction";
 import Footer from "@aiti/components/Footer";
 import OffCanvas from "@aiti/components/OffCanvas";
 
-const Portofolio = () => {
+const Page = () => {
   return (
     <div>
       <CallHooks />
@@ -50,4 +50,4 @@ const Portofolio = () => {
   );
 };
 
-export default Portofolio;
+export default Page;
