@@ -40,7 +40,7 @@ export default function Home() {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/media/favicon.png"
+          href="assets/media/Asset_1.svg"
         />
       </Head>
 
@@ -83,7 +83,7 @@ export default function Home() {
       {/*=====================================*/}
       {/*=        Blog Area Start       	    =*/}
       {/*=====================================*/}
-      <Blog />
+      {/* <Blog /> */}
       {/*=====================================*/}
       {/*=     Call To Action Area Start     =*/}
       {/*=====================================*/}

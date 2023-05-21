@@ -19,43 +19,44 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Featured Case Study</span>
-                    <h2 className="title">
-                      Logo, identity &amp; web design for Uber
+                    <span className="subtitle">Studi Kasus Populer</span>
+                    <h2
+                      className="title"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Sistem Monitoring IoT Dashboard
                     </h2>
                     <p>
-                      Donec metus lorem, vulputate at sapien sit amet, auctor
-                      iaculis lorem. In vel hendrerit nisi. Vestibulum eget
-                      risus velit. Aliquam tristique libero at dui sodales, et
-                      placerat orci lobortis.
+                      Sistem Monitoring ini dapat digunakan untuk memantau
+                      kondisi suatu peralatan atau mesin secara real-time.
                     </p>
                     <p>
-                      Maecenas ipsum neque, elementum id dignissim et, imperdiet
-                      vitae mauris.
+                      Bahkan dapat digunakan untuk mengoperasikan peralatan atau
+                      mesin tersebut secara remote.
                     </p>
                     <Link
                       href="/single-case-study"
                       className="axil-btn btn-fill-primary btn-large"
                     >
-                      Read Case Study
+                      Baca Lebih Lanjut
                     </Link>
                   </div>
                   <div className="case-study-counterup">
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">15</span>
-                        <span className="symbol">%</span>
+                        <span className="number count">250</span>
+                        <span className="symbol">+</span>
                       </h2>
-                      <span className="counter-title">ROI increase</span>
+                      <span className="counter-title">Gateway Digunakan</span>
                     </div>
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">60</span>
-                        <span className="symbol">k</span>
+                        <span className="number count">700</span>
+                        <span className="symbol">+</span>
                       </h2>
-                      <span className="counter-title">
-                        Monthly website visits
-                      </span>
+                      <span className="counter-title">Node Digunakan</span>
                     </div>
                   </div>
                 </div>
@@ -63,43 +64,44 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Featured Case Study</span>
-                    <h2 className="title">
-                      Website and web Development, Design
+                    <span className="subtitle">Studi Kasus Populer</span>
+                    <h2
+                      className="title"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Live2d VTuber Project - Bellavia
                     </h2>
                     <p>
-                      Donec metus lorem, vulputate at sapien sit amet, auctor
-                      iaculis lorem. In vel hendrerit nisi. Vestibulum eget
-                      risus velit. Aliquam tristique libero at dui sodales, et
-                      placerat orci lobortis.
+                      VTuber adalah sebutan untuk Virtual Youtuber, yaitu
+                      Youtuber yang menggunakan avatar 2D atau 3D sebagai
+                      representasi dirinya.
                     </p>
                     <p>
-                      Maecenas ipsum neque, elementum id dignissim et, imperdiet
-                      vitae mauris.
+                      Kami membuat avatar 2D untuk VTuber yang bernama Bellavia.
                     </p>
                     <Link
                       href="/single-case-study"
                       className="axil-btn btn-fill-primary btn-large"
                     >
-                      Read Case Study
+                      Baca Lebih Lanjut
                     </Link>
                   </div>
                   <div className="case-study-counterup">
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">15</span>
-                        <span className="symbol">%</span>
+                        <span className="number count">1</span>
+                        <span className="symbol">x</span>
                       </h2>
-                      <span className="counter-title">ROI increase</span>
+                      <span className="counter-title">Revisi</span>
                     </div>
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">60</span>
-                        <span className="symbol">k</span>
+                        <span className="number count">12+</span>
+                        <span className="symbol"></span>
                       </h2>
-                      <span className="counter-title">
-                        Monthly website visits
-                      </span>
+                      <span className="counter-title">Referensi</span>
                     </div>
                   </div>
                 </div>
@@ -107,43 +109,44 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Featured Case Study</span>
-                    <h2 className="title">
-                      Branding, website &amp; digital marketing for Apple
+                    <span className="subtitle">Studi Kasus Populer</span>
+                    <h2
+                      className="title"
+                      style={{
+                        fontWeight: "bold",
+                      }}
+                    >
+                      Aplikasi Absensi Berbasis Web dan Mobile
                     </h2>
                     <p>
-                      Donec metus lorem, vulputate at sapien sit amet, auctor
-                      iaculis lorem. In vel hendrerit nisi. Vestibulum eget
-                      risus velit. Aliquam tristique libero at dui sodales, et
-                      placerat orci lobortis.
+                      Aplikasi ini dapat digunakan untuk melakukan absensi
+                      karyawan secara online.
                     </p>
                     <p>
-                      Maecenas ipsum neque, elementum id dignissim et, imperdiet
-                      vitae mauris.
+                      Aplikasi ini juga dapat digunakan untuk mengelola data
+                      karyawan, data absensi, dan data lembur.
                     </p>
                     <Link
                       href="/single-case-study"
                       className="axil-btn btn-fill-primary btn-large"
                     >
-                      Read Case Study
+                      Baca Lebih Lanjut
                     </Link>
                   </div>
                   <div className="case-study-counterup">
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">15</span>
-                        <span className="symbol">%</span>
+                        <span className="number count">25</span>
+                        <span className="symbol">+</span>
                       </h2>
-                      <span className="counter-title">ROI increase</span>
+                      <span className="counter-title">Karyawan</span>
                     </div>
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">60</span>
-                        <span className="symbol">k</span>
+                        <span className="number count">1</span>
+                        <span className="symbol"></span>
                       </h2>
-                      <span className="counter-title">
-                        Monthly website visits
-                      </span>
+                      <span className="counter-title">Perusahaan</span>
                     </div>
                   </div>
                 </div>

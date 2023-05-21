@@ -17,13 +17,14 @@ const Banner = () => {
             >
               <h1 className="title">Solusi Digital Kreatif Bisnis Anda</h1>
               <span className="subtitle">
-              Solusi Desain Produk Digital yang Tepat untuk Mengembangkan Bisnis Anda
+                Solusi Desain Produk Digital yang Tepat untuk Mengembangkan
+                Bisnis Anda
               </span>
               <Link
                 href="/contact"
                 className="axil-btn btn-fill-primary btn-large"
               >
-                Get Started
+                Hubungi Kami
               </Link>
             </div>
           </div>

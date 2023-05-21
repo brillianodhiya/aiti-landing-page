@@ -7,11 +7,14 @@ const ServiceArea = () => {
     <section className="section section-padding-equal bg-color-dark">
       <div className="container">
         <div className="section-heading heading-light-left">
-          <span className="subtitle">What We Can Do For You</span>
-          <h2 className="title">Services we can help you with</h2>
+          <span className="subtitle">
+            Kami adalah agensi kreatif yang fokus pada desain dan pengembangan
+            aplikasi.
+          </span>
+          <h2 className="title">Solusi Digital Kreatif Bisnis Anda</h2>
           <p className="opacity-50">
-            Nulla facilisi. Nullam in magna id dolor blandit rutrum eget
-            vulputate augue sed eu imperdiet.
+            Beberapa layanan yang kami tawarkan untuk membantu bisnis Anda
+            berkembang.
           </p>
         </div>
         <div className="row">
@@ -33,14 +36,14 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/design">Design</Link>
+                  <Link href="/service/design">Desain</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to
                   automatically add them to your Collab Cloud library.
                 </p>
                 <Link href="/service/design" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -70,7 +73,7 @@ const ServiceArea = () => {
                   automatically add them to your Collab Cloud library.
                 </p>
                 <Link href="/service/development" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -93,14 +96,14 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/marketing">Online marketing</Link>
+                  <Link href="/service/marketing">Illustration</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to
                   automatically add them to your Collab Cloud library.
                 </p>
                 <Link href="/service/marketing" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -123,14 +126,14 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/business">Business</Link>
+                  <Link href="/service/business">3D Modeling</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to
                   automatically add them to your Collab Cloud library.
                 </p>
                 <Link href="/service/business" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -153,19 +156,19 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/technology">Technology</Link>
+                  <Link href="/service/technology">Live2D Character</Link>
                 </h5>
                 <p>
                   Simply drag and drop photos and videos into your workspace to
                   automatically add them to your Collab Cloud library.
                 </p>
                 <Link href="/service/technology" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             className="col-lg-4 col-md-6"
             data-sal="slide-up"
             data-sal-duration={800}
@@ -194,7 +197,7 @@ const ServiceArea = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <ul className="list-unstyled shape-group-10">
