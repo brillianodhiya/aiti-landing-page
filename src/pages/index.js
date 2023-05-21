@@ -40,7 +40,7 @@ export default function Home() {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/media/favicon.png"
+          href="assets/media/Asset_1.svg"
         />
       </Head>
 

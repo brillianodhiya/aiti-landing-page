@@ -18,29 +18,29 @@ const Headers = () => {
               <Link href="/" key={"home"}>
                 <Image
                   className="light-version-logo"
-                  src="assets/media/logo.svg"
+                  src="/assets/media/bg_putih.png"
                   alt="logo"
-                  width={187}
-                  height={60}
+                  width={161}
+                  height={50}
                   priority
                 />
               </Link>
               <Link href="/" key={"home"}>
                 <Image
                   className="dark-version-logo"
-                  src="assets/media/logo-3.svg"
+                  src="/assets/media/bg_hitam.png"
                   alt="logo"
-                  width={187}
-                  height={60}
+                  width={161}
+                  height={50}
                 />
               </Link>
               <Link href="/" key={"home"}>
                 <Image
                   className="sticky-logo"
-                  src="assets/media/logo-2.svg"
+                  src="/assets/media/bg_putih.png"
                   alt="logo"
-                  width={187}
-                  height={60}
+                  width={161}
+                  height={50}
                 />
               </Link>
             </div>
@@ -53,17 +53,17 @@ const Headers = () => {
                       <Link href="/" key={"home"}>
                         <Image
                           className="light-mode"
-                          src="assets/media/logo-2.svg"
+                          src="/assets/media/bg_putih.png"
                           alt="Site Logo"
-                          width={187}
-                          height={60}
+                          width={161}
+                          height={50}
                         />
                         <Image
                           className="dark-mode"
-                          src="assets/media/logo-3.svg"
+                          src="/assets/media/bg_hitam.png"
                           alt="Site Logo"
-                          width={187}
-                          height={60}
+                          width={161}
+                          height={50}
                         />
                       </Link>
                     </div>

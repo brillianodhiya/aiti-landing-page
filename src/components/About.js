@@ -9,20 +9,20 @@ const About = () => {
           <div className="col-lg-6" data-sal="slide-up" data-sal-duration={800}>
             <div className="about-us">
               <div className="section-heading heading-left mb-0">
-                <span className="subtitle">About Us</span>
+                <span className="subtitle">Tentang Kami</span>
                 <h2 className="title mb--40">
-                  We do design, code &amp; develop.
+                  Kreatifitas dan Inovasi Kami untuk Anda
                 </h2>
                 <p>
-                  Nulla et velit gravida, facilisis quam a, molestie ante.
-                  Mauris placerat suscipit dui, eget maximus tellus blandit a.
-                  Praesent non tellus sed ligula commodo blandit in et mauris.
-                  Quisque efficitur ipsum ut dolor molestie pellentesque.{" "}
+                  AITI Lokal adalah agensi kreatif yang fokus pada desain dan
+                  pengembangan aplikasi. Kami berkomitmen untuk memberikan
+                  solusi digital kreatif untuk bisnis Anda.
                 </p>
                 <p>
-                  Nulla pharetra hendrerit mi quis dapibus. Quisque luctus,
-                  tortor a venenatis fermentum, est lacus feugiat nisl, id
-                  pharetra odio enim eget libero.{" "}
+                  Kami percaya bahwa desain dan pengembangan aplikasi yang baik
+                  dapat membantu bisnis Anda berkembang. Kami berusaha untuk
+                  memberikan solusi digital kreatif yang dapat membantu bisnis
+                  Anda berkembang.
                 </p>
               </div>
             </div>
@@ -34,7 +34,9 @@ const About = () => {
             data-sal-delay={100}
           >
             <div className="contact-form-box">
-              <h3 className="title">Get a free Keystroke quote now</h3>
+              <h3 className="title">
+                Ambil langkah pertama untuk proyek digital Anda
+              </h3>
               <form
                 method="POST"
                 action="mail.php"
@@ -46,7 +48,7 @@ const About = () => {
                     type="text"
                     className="form-control"
                     name="contact-name"
-                    placeholder="John Smith"
+                    placeholder="Fulan"
                   />
                 </div>
                 <div className="form-group">
@@ -64,7 +66,7 @@ const About = () => {
                     type="tel"
                     className="form-control"
                     name="contact-company"
-                    placeholder={+123456789}
+                    placeholder={+6288907002408}
                   />
                 </div>
                 <div className="form-group">
@@ -73,7 +75,7 @@ const About = () => {
                     className="axil-btn btn-fill-primary btn-fluid btn-primary"
                     name="submit-btn"
                   >
-                    Get Free Quote
+                    Ambil langkah pertama
                   </button>
                 </div>
                 <input

@@ -7,10 +7,10 @@ const CenterUp = () => {
       <div className="container">
         <div className="section-heading heading-light">
           <span className="subtitle">Featured Case Study</span>
-          <h2 className="title">Design startup movement</h2>
+          <h2 className="title">Perjalanan startup kami.</h2>
           <p>
-            In vel varius turpis, non dictum sem. Aenean in efficitur ipsum, in
-            egestas ipsum. Mauris in mi ac tellus.
+            Kami bersama dengan klien kami telah menciptakan beberapa solusi
+            digital yang luar biasa untuk bisnis mereka.
           </p>
         </div>
         <div className="row">

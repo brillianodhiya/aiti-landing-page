@@ -9,19 +9,19 @@ const Projects = () => {
         <div className="section-heading heading-left mb--40">
           <span className="subtitle">Our Project</span>
           <h2 className="title">
-            Some of our <br /> finest work.
+            Beberapa project <br /> dari tim kita.
           </h2>
         </div>
         <div className="axil-isotope-wrapper">
           <div className="isotope-button isotope-project-btn">
             <button data-filter="*" className="is-checked">
-              <span className="filter-text">All Works</span>
+              <span className="filter-text">Semua</span>
             </button>
-            <button data-filter=".branding">
-              <span className="filter-text">Branding</span>
+            <button>
+              <span className="filter-text">Development</span>
             </button>
-            <button data-filter=".mobile">
-              <span className="filter-text">Mobile</span>
+            <button>
+              <span className="filter-text">Desain</span>
             </button>
           </div>
           <div className="row row-35 isotope-list">
