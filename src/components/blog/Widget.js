@@ -63,12 +63,12 @@ export const Widget = () => {
                 </Link>
               </li>
               <li>
-                <Link href="../../../index-4.htm">
+                <Link href="/">
                   <i className="fab fa-instagram"></i>
                 </Link>
               </li>
               <li>
-                <Link href="../../../index-8.htm">
+                <Link href="/">
                   <i className="fab fa-youtube"></i>
                 </Link>
               </li>
