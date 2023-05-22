@@ -78,7 +78,12 @@ const Testimonial = () => {
                 beberapa ekspresi.”
               </p>
               <br />
-              <div className="author-info">
+              <div
+                className="author-info"
+                style={{
+                  marginTop: "8px",
+                }}
+              >
                 <div className="thumb">
                   <Image
                     width={50}

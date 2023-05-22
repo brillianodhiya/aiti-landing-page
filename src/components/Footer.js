@@ -19,7 +19,7 @@ const Footer = () => {
                   <i className="fab fa-facebook-f" />
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="https://twitter.com/aiti"
                   data-sal="slide-up"
@@ -28,8 +28,8 @@ const Footer = () => {
                 >
                   <i className="fab fa-twitter" />
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link
                   href="https://www.pinterest.com"
                   data-sal="slide-up"
@@ -38,7 +38,7 @@ const Footer = () => {
                 >
                   <i className="fab fa-pinterest-p" />
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="https://www.linkedin.com/in/brilliano-dhiya-ulhaq-44b196194/"
@@ -59,7 +59,7 @@ const Footer = () => {
                   <i className="fab fa-instagram" />
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   href="https://vimeo.com"
                   data-sal="slide-up"
@@ -68,7 +68,7 @@ const Footer = () => {
                 >
                   <i className="fab fa-vimeo-v" />
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="https://dribbble.com"

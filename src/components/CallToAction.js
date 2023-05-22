@@ -8,10 +8,12 @@ const CallToAction = () => {
       <div className="container">
         <div className="call-to-action">
           <div className="section-heading heading-light">
-            <span className="subtitle">{"Let's"} Work Together</span>
-            <h2 className="title">Need a successful project?</h2>
+            <span className="subtitle">
+              Kami akan membantu Anda untuk mewujudkan ide Anda
+            </span>
+            <h2 className="title">Butuh bantuan untuk proyek Anda?</h2>
             <Link href="/contact" className="axil-btn btn-large btn-fill-white">
-              Estimate Project
+              Hubungi Kami
             </Link>
           </div>
           <div className="thumbnail">

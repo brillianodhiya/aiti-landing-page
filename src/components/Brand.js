@@ -19,14 +19,20 @@ const Brand = () => {
             data-sal="slide-up"
             data-sal-duration={500}
           >
-            <div className="brand-grid active">
+            <div
+              className="brand-grid active"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={240}
                 height={133}
                 src="/assets/media/icon/nodejs.png"
                 alt="NodeJs"
                 style={{
-                  margin: "4px",
+                  marginTop: "4px",
                 }}
               />
             </div>
@@ -37,7 +43,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={100}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={140}
                 height={140}
@@ -45,7 +57,7 @@ const Brand = () => {
                 alt="Reactjs"
                 style={{
                   marginTop: "40px",
-                  marginLeft: "12px",
+                  // marginLeft: "12px",
                 }}
               />
             </div>
@@ -56,7 +68,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={200}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={140}
                 height={140}
@@ -71,7 +89,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={300}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={180}
                 height={133}
@@ -89,7 +113,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={400}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={260}
                 height={133}
@@ -97,7 +127,7 @@ const Brand = () => {
                 alt="SolidJs"
                 style={{
                   marginTop: "20px",
-                  marginLeft: "-10px",
+                  // marginLeft: "-10px",
                 }}
               />
             </div>
@@ -108,7 +138,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={500}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={220}
                 height={133}
@@ -126,7 +162,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={600}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={160}
                 height={133}
@@ -144,7 +186,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={700}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={200}
                 height={133}
@@ -162,7 +210,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={700}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={230}
                 height={133}
@@ -170,7 +224,7 @@ const Brand = () => {
                 alt="Rebbit MQ"
                 style={{
                   marginTop: "30px",
-                  marginLeft: "14px",
+                  // marginLeft: "14px",
                 }}
               />
             </div>
@@ -181,7 +235,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={700}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={200}
                 height={133}
@@ -189,7 +249,7 @@ const Brand = () => {
                 alt="Mongo DB"
                 style={{
                   marginTop: "56px",
-                  marginLeft: "14px",
+                  // marginLeft: "14px",
                 }}
               />
             </div>
@@ -200,7 +260,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={700}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={160}
                 height={133}
@@ -208,7 +274,7 @@ const Brand = () => {
                 alt="Vercel"
                 style={{
                   marginTop: "66px",
-                  marginLeft: "14px",
+                  // marginLeft: "14px",
                 }}
               />
             </div>
@@ -219,7 +285,13 @@ const Brand = () => {
             data-sal-duration={500}
             data-sal-delay={700}
           >
-            <div className="brand-grid">
+            <div
+              className="brand-grid"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <Image
                 width={100}
                 height={100}
@@ -227,7 +299,7 @@ const Brand = () => {
                 alt="Deno"
                 style={{
                   marginTop: "30px",
-                  marginLeft: "44px",
+                  // marginLeft: "44px",
                 }}
               />
             </div>
@@ -246,12 +318,12 @@ const Brand = () => {
               }}
             >
               <Image
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 src="/assets/media/icon/ai.png"
                 alt="Adobe Illustrator"
                 style={{
-                  marginTop: "30px",
+                  marginTop: "40px",
                 }}
               />
             </div>
@@ -270,12 +342,12 @@ const Brand = () => {
               }}
             >
               <Image
-                width={70}
-                height={70}
+                width={50}
+                height={50}
                 src="/assets/media/icon/figma.png"
                 alt="Figma"
                 style={{
-                  marginTop: "30px",
+                  marginTop: "40px",
                 }}
               />
             </div>
@@ -294,12 +366,12 @@ const Brand = () => {
               }}
             >
               <Image
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 src="/assets/media/icon/ibispaint.png"
                 alt="Ibis Paint"
                 style={{
-                  marginTop: "30px",
+                  marginTop: "40px",
                 }}
               />
             </div>
@@ -318,12 +390,12 @@ const Brand = () => {
               }}
             >
               <Image
-                width={100}
-                height={100}
+                width={80}
+                height={80}
                 src="/assets/media/icon/procreate.png"
                 alt="Procreate"
                 style={{
-                  marginTop: "30px",
+                  marginTop: "40px",
                 }}
               />
             </div>
