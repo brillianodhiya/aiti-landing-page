@@ -102,20 +102,20 @@ const Footer = () => {
             >
               <div className="footer-widget border-end">
                 <div className="footer-newsletter">
-                  <h2 className="title">Get in touch!</h2>
+                  <h2 className="title">Dapatkan berita terbaru.</h2>
                   <p>
-                    Fusce varius, dolor tempor interdum tristique, dui urna bib
-                    endum magna, ut ullamcorper purus
+                    Dapatkan berita terbaru dari kami, kami akan mengirimkan
+                    berita terbaru dari kami ke email anda.
                   </p>
                   <form>
                     <div className="input-group">
                       <input
                         type="email"
                         className="form-control"
-                        placeholder="Email address"
+                        placeholder="Alamat Email"
                       />
                       <button className="subscribe-btn" type="submit">
-                        Subscribe
+                        Langganan
                       </button>
                     </div>
                   </form>
@@ -135,31 +135,29 @@ const Footer = () => {
                     <div className="footer-menu-link">
                       <ul className="list-unstyled">
                         <li>
-                          <Link href="/service/design">
-                            Logo &amp; Branding
+                          <Link href="/service/design">Desain Logo</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/development">
+                            Pengembangan Website
                           </Link>
                         </li>
                         <li>
                           <Link href="/service/development">
-                            Website Development
+                            Pengembangan Aplikasi Mobile
                           </Link>
                         </li>
                         <li>
                           <Link href="/service/development">
-                            Mobile App Development
+                            Pengembangan Aplikasi Desktop
                           </Link>
                         </li>
                         <li>
-                          <Link href="/service/marketing">
-                            Search Engine Optimization
-                          </Link>
+                          <Link href="/service/design">Desain Grafis</Link>
                         </li>
                         <li>
-                          <Link href="/service/marketing">Pay-Per-Click</Link>
-                        </li>
-                        <li>
-                          <Link href="/service/marketing">
-                            Social Media Marketing
+                          <Link href="/service/development">
+                            Pengembangan Sistem Informasi
                           </Link>
                         </li>
                       </ul>
@@ -168,14 +166,14 @@ const Footer = () => {
                 </div>
                 <div className="col-sm-3">
                   <div className="footer-widget">
-                    <h6 className="widget-title">Resourses</h6>
+                    <h6 className="widget-title">About</h6>
                     <div className="footer-menu-link">
                       <ul className="list-unstyled">
                         <li>
                           <Link href="/blog">Blog</Link>
                         </li>
                         <li>
-                          <Link href="/case-study">Case Studies</Link>
+                          <Link href="/case-study">Studi Kasus</Link>
                         </li>
                         <li>
                           <Link href="/project">Portfolio</Link>
