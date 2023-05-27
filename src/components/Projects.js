@@ -32,11 +32,16 @@ const Projects = () => {
           <div className="row row-35 isotope-list">
             <div className="col-md-6 project branding">
               <div className="project-grid">
-                <div className="thumbnail">
+                <div
+                  className="thumbnail"
+                  style={{
+                    maxHeight: "350px",
+                  }}
+                >
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
-                      height={460}
+                      height={450}
                       src="/assets/media/project/hoops-1.png"
                       alt="project"
                     />
@@ -56,19 +61,19 @@ const Projects = () => {
                   <Link href="/single-portfolio">
                     <Image
                       width={610}
-                      height={460}
-                      src="/assets/media/project/project-2.png"
+                      height={450}
+                      src="/assets/media/project/mockup_monitoring air.png"
                       alt="project"
                     />
                   </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="/single-portfolio">Digital Marketing</Link>
+                    <Link href="/single-portfolio">
+                      Aplikasi Monitoring IoT
+                    </Link>
                   </h4>
-                  <span className="subtitle">
-                    Logo, Website &amp; Mobile App
-                  </span>
+                  <span className="subtitle">Website &amp; Mobile App</span>
                 </div>
               </div>
             </div>
@@ -79,16 +84,16 @@ const Projects = () => {
                     <Image
                       width={610}
                       height={460}
-                      src="/assets/media/project/project-3.png"
+                      src="/assets/media/project/mockup_nebula.png"
                       alt="project"
                     />
                   </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="/single-portfolio">Digital Agency</Link>
+                    <Link href="/single-portfolio">Dashboard Monitoring</Link>
                   </h4>
-                  <span className="subtitle">Website, UI/UX</span>
+                  <span className="subtitle">Website</span>
                 </div>
               </div>
             </div>
@@ -99,36 +104,41 @@ const Projects = () => {
                     <Image
                       width={610}
                       height={460}
-                      src="/assets/media/project/project-4.png"
+                      src="/assets/media/project/mockup_smartmeter.png"
                       alt="project"
                     />
                   </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="/single-portfolio">Plan Management</Link>
+                    <Link href="/single-portfolio">Smartmeter</Link>
                   </h4>
-                  <span className="subtitle">Branding, Website, IOS App</span>
+                  <span className="subtitle">Android, Website, CMS</span>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 project branding">
+            {/* <div className="col-md-6 project branding">
               <div className="project-grid">
-                <div className="thumbnail">
+                <div
+                  className="thumbnail"
+                  style={{
+                    maxHeight: "350px",
+                  }}
+                >
                   <Link href="single-portfolio">
                     <Image
                       width={610}
                       height={460}
-                      src="/assets/media/project/project-5.png"
+                      src="/assets/media/project/mockup_profil_IKI.png"
                       alt="project"
                     />
                   </Link>
                 </div>
                 <div className="content">
                   <h4 className="title">
-                    <Link href="single-portfolio">Social Engagement</Link>
+                    <Link href="single-portfolio">Company Profile</Link>
                   </h4>
-                  <span className="subtitle">Design, Development</span>
+                  <span className="subtitle">Design, Website</span>
                 </div>
               </div>
             </div>
@@ -151,7 +161,7 @@ const Projects = () => {
                   <span className="subtitle">Logo, Webapp, App</span>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
