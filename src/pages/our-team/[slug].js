@@ -13,7 +13,7 @@ const Page = () => {
       <CallHooks />
       <Head>
         <title>
-          Solusi Digital Berkualitas Tinggi dari AITI Lokal | Ali Inovasi
+          Solusi Digital Berkualitas Tinggi dari AITI Lokal | Agensi Inovasi
           Teknologi Indonesia
         </title>
         <meta
