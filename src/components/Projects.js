@@ -18,7 +18,7 @@ const Projects = () => {
           </h2>
         </div>
         <div className="axil-isotope-wrapper">
-          <div className="isotope-button isotope-project-btn">
+          {/* <div className="isotope-button isotope-project-btn">
             <button data-filter="*" className="is-checked">
               <span className="filter-text">Semua</span>
             </button>
@@ -28,7 +28,7 @@ const Projects = () => {
             <button>
               <span className="filter-text">Desain</span>
             </button>
-          </div>
+          </div> */}
           <div className="row row-35 isotope-list">
             <div className="col-md-6 project branding">
               <div className="project-grid">

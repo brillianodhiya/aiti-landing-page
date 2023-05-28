@@ -39,8 +39,9 @@ const ServiceArea = () => {
                   <Link href="/service/design">Desain</Link>
                 </h5>
                 <p>
-                  Simply drag and drop photos and videos into your workspace to
-                  automatically add them to your Collab Cloud library.
+                  Proses Menciptakan solusi visual atau fungsional untuk suatu
+                  produk atau proyek dengan mempertimbangkan elemen-elemen
+                  seperti estetika, fungsionalitas, dan keselamatan.
                 </p>
                 <Link href="/service/design" className="more-btn">
                   Cari tahu lebih lanjut
@@ -69,8 +70,9 @@ const ServiceArea = () => {
                   <Link href="service/development">Pengembangan Aplikasi</Link>
                 </h5>
                 <p>
-                  Simply drag and drop photos and videos into your workspace to
-                  automatically add them to your Collab Cloud library.
+                  Dengan pengalaman kerja yang luas dan berbagai keahlian di
+                  bidang pengembangan aplikasi, kami dapat memberikan solusi
+                  yang dapat dipercaya dan sesuai dengan anggaran Anda.
                 </p>
                 <Link href="/service/development" className="more-btn">
                   Cari tahu lebih lanjut
@@ -99,8 +101,10 @@ const ServiceArea = () => {
                   <Link href="/service/marketing">Illustrasi</Link>
                 </h5>
                 <p>
-                  Simply drag and drop photos and videos into your workspace to
-                  automatically add them to your Collab Cloud library.
+                  Dengan pengalaman dalam menciptakan berbagai jenis gambar,
+                  mulai dari ilustrasi editorial hingga animasi karakter, tim
+                  kami siap membantu Anda memberikan pesan Anda dengan cara yang
+                  paling efektif.
                 </p>
                 <Link href="/service/marketing" className="more-btn">
                   Cari tahu lebih lanjut
@@ -129,8 +133,9 @@ const ServiceArea = () => {
                   <Link href="/service/business">3D Modeling</Link>
                 </h5>
                 <p>
-                  Simply drag and drop photos and videos into your workspace to
-                  automatically add them to your Collab Cloud library.
+                  Layanan 3D Modeling kami mencakup desain, modifikasi, edit,
+                  dan konversi berbagai format file 3D. Kami menyediakan pilihan
+                  fleksibel dalam hal gaya dan tingkat detail yang diinginkan.
                 </p>
                 <Link href="/service/business" className="more-btn">
                   Cari tahu lebih lanjut
@@ -159,8 +164,10 @@ const ServiceArea = () => {
                   <Link href="/service/technology">Karakter Live2D</Link>
                 </h5>
                 <p>
-                  Simply drag and drop photos and videos into your workspace to
-                  automatically add them to your Collab Cloud library.
+                  Dengan karakter Live2D, Anda dapat memberikan pengalaman
+                  interaktif yang lebih mengasyikkan kepada audiens Anda. Bukan
+                  hanya itu, produk anda akan terlihat lebih atraktif dan
+                  menarik perhatian.
                 </p>
                 <Link href="/service/technology" className="more-btn">
                   Cari tahu lebih lanjut
