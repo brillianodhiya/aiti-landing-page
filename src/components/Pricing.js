@@ -9,13 +9,154 @@ const Pricing = () => {
     <section className="section bg-color-light section-padding">
       <div className="container">
         <div className="section-heading mb-0">
-          <span className="subtitle">Pricing Plan</span>
-          <h2 className="title">Find the Right Plan.</h2>
+          <span className="subtitle">Perkiraan Biaya.</span>
+          <h2 className="title">Harga yang terjangkau.</h2>
           <p>
-            Flexible pricing options for freelancers <br /> and design teams.
+            Kami menawarkan harga yang terjangkau untuk semua kalangan. Dengan
+            harga yang terjangkau, Anda dapat memiliki website yang menarik dan
+            fungsional.
           </p>
         </div>
-        <div className="pricing-billing-duration">
+        <div className="row">
+          <div
+            className="col-lg-4"
+            data-sal="slide-up"
+            data-sal-duration={800}
+            data-sal-delay={100}
+          >
+            <div className={`pricing-table active`}>
+              {/* <div className="star-icon">
+                <i className="fas fa-star" />
+              </div> */}
+              <div className="pricing-header">
+                <h3 className="title">Paket Website</h3>
+                <span className="subtitle">
+                  Paket Website untuk Bisnis maupun perorangan
+                </span>
+                <div className="price-wrap">
+                  <div className="yearly-pricing">
+                    <span className="subtitle">mulai dari</span>
+                    <br />
+                    <span className="amount">Rp350K,-</span>
+                  </div>
+                </div>
+                <div className="pricing-btn">
+                  <Link
+                    href={"/"}
+                    className="axil-btn btn-large-fluid btn-borderd"
+                  >
+                    Hubungi kami untuk penawaran
+                  </Link>
+                </div>
+              </div>
+              {/* <div className="pricing-body">
+                <ul className="list-unstyled">
+                  <li>10 Pages Responsive Website</li>
+                  <li>5 PPC Campaigns</li>
+                  <li>10 SEO Keywords</li>
+                  <li>5 Facebook Camplaigns</li>
+                  <li>2 Video Camplaigns</li>
+                </ul>
+              </div> */}
+            </div>
+          </div>
+          <div
+            className="col-lg-4"
+            data-sal="slide-up"
+            data-sal-duration={800}
+            data-sal-delay={200}
+          >
+            <div className={`pricing-table`}>
+              <div className="pricing-header">
+                <h3 className="title">Paket Design</h3>
+                <span className="subtitle">
+                  Paket Design untuk Bisnis maupun perorangan
+                </span>
+                <div className="price-wrap">
+                  <div className="yearly-pricing">
+                    <span className="subtitle">mulai dari</span>
+                    <br />
+                    <span className="amount">Rp50K,-</span>
+                  </div>
+                </div>
+                <div className="pricing-btn">
+                  <Link
+                    href="/"
+                    className="axil-btn btn-large-fluid btn-borderd"
+                  >
+                    Hubungi kami untuk penawaran
+                  </Link>
+                </div>
+              </div>
+              {/* <div className="pricing-body">
+                <ul className="list-unstyled">
+                  <li>50 Pages Responsive Website</li>
+                  <li>Unlimited PPC Campaigns</li>
+                  <li>Unlimited SEO Keywords</li>
+                  <li>Unlimited Facebook Camplaigns</li>
+                  <li>Unlimited Video Camplaigns</li>
+                </ul>
+              </div> */}
+            </div>
+          </div>
+          <div
+            className="col-lg-4"
+            data-sal="slide-up"
+            data-sal-duration={800}
+            data-sal-delay={300}
+          >
+            <div className="pricing-table">
+              <div className="pricing-header">
+                <h3 className="title">Paket Illustrasi</h3>
+                <span className="subtitle">
+                  Paket Illustrasi termasuk Live2D
+                </span>
+                <div className="price-wrap">
+                  <div className="yearly-pricing">
+                    <span className="subtitle">mulai dari</span>
+                    <br />
+                    <span className="amount">Rp150K,-</span>
+                  </div>
+                </div>
+                <div className="pricing-btn">
+                  <Link
+                    href="/"
+                    className="axil-btn btn-large-fluid btn-borderd"
+                  >
+                    Hubungi kami untuk penawaran
+                  </Link>
+                </div>
+              </div>
+              {/* <div className="pricing-body">
+                <ul className="list-unstyled">
+                  <li>10 Pages Responsive Website</li>
+                  <li>5 PPC Campaigns</li>
+                  <li>10 SEO Keywords</li>
+                  <li>5 Facebook Camplaigns</li>
+                  <li>2 Video Camplaigns</li>
+                </ul>
+              </div> */}
+            </div>
+          </div>
+        </div>
+        {/* <div className="pricing-billing-duration">
+          <div
+            className="row"
+            style={{
+              alignItems: "center",
+              justifyContent: "center",
+              textAlign: "center",
+            }}
+          >
+            <div>
+              <h3 className="title">Paket Website</h3>
+              <p className="subtitle">
+                Kami menawarkan paket website yang terjangkau untuk Anda.
+              </p>
+            </div>
+          </div>
+        </div> */}
+        {/* <div className="pricing-billing-duration">
           <ul>
             <li className="nav-item">
               <button
@@ -190,7 +331,7 @@ const Pricing = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <ul className="shape-group-3 list-unstyled">
         <li className="shape shape-1">

@@ -29,7 +29,7 @@
       axilInit.tiltAnimation();
       axilInit.menuLinkActive();
       axilInit.audioPlayerActivation();
-      axilInit.onePageNav();
+      // axilInit.onePageNav();
       // axilInit.pricingPlan();
       axilInit.marqueImages();
       axilInit.axilHover();

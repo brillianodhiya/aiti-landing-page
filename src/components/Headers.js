@@ -25,7 +25,7 @@ const Headers = () => {
                   priority
                 />
               </Link>
-              <Link href="/" key={"home"}>
+              <Link href="/" key={"home2"}>
                 <Image
                   className="dark-version-logo"
                   src="/assets/media/bg_hitam.png"
@@ -34,7 +34,7 @@ const Headers = () => {
                   height={50}
                 />
               </Link>
-              <Link href="/" key={"home"}>
+              <Link href="/" key={"home3"}>
                 <Image
                   className="sticky-logo"
                   src="/assets/media/bg_putih.png"
@@ -50,7 +50,7 @@ const Headers = () => {
                 <div className="d-block d-lg-none">
                   <div className="mobile-nav-header">
                     <div className="mobile-nav-logo">
-                      <Link href="/" key={"home"}>
+                      <Link href="/" key={"home4"}>
                         <Image
                           className="light-mode"
                           src="/assets/media/bg_putih.png"

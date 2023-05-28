@@ -1,6 +1,16 @@
 import React from "react";
 
 export const SectionContainer = () => {
+  React.useEffect(() => {
+    window.$("#onepagenav").onePageNav({
+      currentClass: "active",
+      changeHash: false,
+      scrollSpeed: 750,
+      scrollThreshold: 0.5,
+      filter: "",
+      easing: "swing",
+    });
+  }, []);
   return (
     <nav id="onepagenav" className="service-scroll-nav navbar onepagefixed">
       <div className="container">
