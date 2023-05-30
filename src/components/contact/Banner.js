@@ -11,9 +11,9 @@ export const Banner = () => {
             <li>
               <Link href="/">Home</Link>
             </li>
-            <li className="active">Contact</li>
+            <li className="active">Kontak</li>
           </ul>
-          <h1 className="title h2">Contact</h1>
+          <h1 className="title h2">Kontak</h1>
         </div>
       </div>
       <ul className="shape-group-8 list-unstyled">

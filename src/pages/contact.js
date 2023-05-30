@@ -33,7 +33,7 @@ const Contact = () => {
       </Head>
       <Banner />
       <ContactArea />
-      <LocationArea />
+      {/* <LocationArea /> */}
       {/*=====================================*/}
       {/*=        Footer Area Start       	=*/}
       {/*=====================================*/}

@@ -7,14 +7,16 @@ export const ContactArea = () => {
         <div className="row">
           <div className="col-xl-5 col-lg-6">
             <div className="contact-form-box shadow-box mb--30">
-              <h3 className="title">Get a free Keystroke quote now</h3>
+              <h3 className="title">
+                Ambil langkah pertama untuk proyek digital Anda
+              </h3>
               <form
                 method="POST"
                 action="mail.php"
                 className="axil-contact-form"
               >
                 <div className="form-group">
-                  <label>Name</label>
+                  <label>Nama</label>
                   <input
                     type="text"
                     className="form-control"
@@ -35,10 +37,11 @@ export const ContactArea = () => {
                     type="text"
                     className="form-control"
                     name="contact-company"
+                    placeholder="tidak wajib"
                   />
                 </div>
                 <div className="form-group mb--40">
-                  <label>How can we help you?</label>
+                  <label>Bagaimana kami dapat membantu Anda?</label>
                   <textarea
                     name="contact-message"
                     id="contact-message"
@@ -53,28 +56,59 @@ export const ContactArea = () => {
                     className="axil-btn btn-fill-primary btn-fluid btn-primary"
                     name="submit-btn"
                   >
-                    Get Pricing Now
+                    Ambil langkah pertama
                   </button>
                 </div>
               </form>
             </div>
           </div>
           <div className="col-xl-5 col-lg-6 offset-xl-1">
-            <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
-              <h4 className="title">Phone</h4>
-              <p>Our customer care is open from Mon-Fri, 10:00 am to 6:00 pm</p>
+            <div className="contact-info mb--100 mb_md--30 mt_md--0 mt--40">
+              <h4 className="title">Whatsapp</h4>
+              <p>
+                Pelayanan kami akan selalu ada untuk Anda. Kami siap membantu
+                Anda.
+              </p>
+
+              <h5
+                className="subtitle"
+                style={{
+                  color: "#fff",
+                  marginBottom: "0px",
+                }}
+              >
+                Brilliano Dhiya
+              </h5>
               <h4 className="phone-number">
-                <a href="tel:1234567890">(123) 456 7890</a>
+                <a target="_blank" href="https://wa.me/6285155436866">
+                  +62 851-5543-6866
+                </a>
+              </h4>
+              <br />
+              <h5
+                className="subtitle"
+                style={{
+                  color: "#fff",
+                  marginBottom: "0px",
+                }}
+              >
+                Aulia Zulfaa
+              </h5>
+              <h4 className="phone-number">
+                <a target="_blank" href="https://wa.me/6285175016160">
+                  +62 851-7501-6160
+                </a>
               </h4>
             </div>
             <div className="contact-info mb--30">
               <h4 className="title">Email</h4>
               <p>
-                Our support team will get back to in 48-h during standard
-                business hours.
+                Kami akan merespon email Anda dalam waktu 24 jam. Jika Anda
+                membutuhkan bantuan segera, silakan hubungi kami melalui
+                Whatsapp.
               </p>
               <h4 className="phone-number">
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:brillidhiya@gmail.com">brillidhiya@gmail.com</a>
               </h4>
             </div>
           </div>
