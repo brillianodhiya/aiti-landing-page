@@ -9,18 +9,19 @@ export const ExpertsArea = () => {
         <div className="row align-items-center">
           <div className="col-lg-5">
             <div className="section-heading heading-left">
-              <span className="subtitle">Experts in field</span>
-              <h2>What makes us special?</h2>
+              <span className="subtitle">Berpengalaman sesuai bidang</span>
+              <h2>Apa yang membuat kami spesial?</h2>
               <p className="mb--50">
-                In vel varius turpis, non dictum sem. Aenean in efficitur ipsum,
-                in egestas ipsum. Mauris in mi ac tellus.
+                Kami adalah tim yang berpengalaman dalam bidang desain dan
+                pengembangan aplikasi. Kami berkomitmen untuk memberikan solusi
+                digital kreatif untuk bisnis Anda.
               </p>
-              <Link
+              {/* <Link
                 href="/contact"
                 className="axil-btn btn-large btn-fill-primary"
               >
                 Careers
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div className="col-lg-6 offset-xl-1">
@@ -49,10 +50,10 @@ export const ExpertsArea = () => {
                     />
                   </div>
                   <div className="count-number h2">
-                    <span className="number count">15</span>
+                    <span className="number count">3</span>
                     <span className="symbol">+</span>
                   </div>
-                  <h6 className="title">Years of operation</h6>
+                  <h6 className="title">Tahun Berjalan</h6>
                 </div>
               </div>
               <div
@@ -79,10 +80,10 @@ export const ExpertsArea = () => {
                     />
                   </div>
                   <div className="count-number h2">
-                    <span className="number count">360</span>
+                    <span className="number count">15</span>
                     <span className="symbol">+</span>
                   </div>
-                  <h6 className="title">Projects deliverd</h6>
+                  <h6 className="title">Projects Diterima</h6>
                 </div>
               </div>
               <div
@@ -109,10 +110,10 @@ export const ExpertsArea = () => {
                     />
                   </div>
                   <div className="count-number h2">
-                    <span className="number count">600</span>
+                    <span className="number count">11</span>
                     <span className="symbol">+</span>
                   </div>
-                  <h6 className="title">Specialist</h6>
+                  <h6 className="title">Spesialis</h6>
                 </div>
               </div>
               <div
@@ -139,10 +140,10 @@ export const ExpertsArea = () => {
                     />
                   </div>
                   <div className="count-number h2">
-                    <span className="number count">64</span>
-                    <span className="symbol">+</span>
+                    <span className="number count">24</span>
+                    <span className="symbol">h</span>
                   </div>
-                  <h6 className="title">Years of operation</h6>
+                  <h6 className="title">Servus 24 Jam</h6>
                 </div>
               </div>
             </div>

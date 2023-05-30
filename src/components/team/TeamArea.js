@@ -6,11 +6,14 @@ export const TeamArea = () => {
     <section className="section section-padding bg-color-dark pb--70 pb_lg--20 pb_md--0">
       <div className="container">
         <div className="section-heading heading-light">
-          <span className="subtitle">Our valus</span>
-          <h2 className="title mb--50">Meet The Team</h2>
+          <span className="subtitle">Tim yang berpengalaman sesuai bidang</span>
+          <h2 className="title mb--50">
+            Tim kami yang berpengalaman sesuai bidang
+          </h2>
           <p>
-            Nulla facilisi. Nullam in magna id dolor blandit rutrum eget
-            vulputate augue sed eu leo eget risus imperdiet.
+            Kami memiliki tim yang berpengalaman dalam bidang desain dan
+            pengembangan aplikasi. Kami berkomitmen untuk memberikan solusi
+            digital kreatif untuk bisnis Anda.
           </p>
         </div>
         <div className="row">
@@ -19,8 +22,8 @@ export const TeamArea = () => {
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
-                    src="/assets/media/team/team-1.png"
-                    alt="Team Member"
+                    src="/assets/media/team/brilli.png"
+                    alt="CEO"
                     width={128}
                     height={128}
                   />
@@ -28,10 +31,12 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Savannah Nguyen</Link>
+                  <Link href="/our-team/single-team">
+                    Brilliano Dhiya Ulhaq
+                  </Link>
                 </h4>
-                <span className="designation">Communications</span>
-                <span className="designation">Strategist</span>
+                <span className="designation">Project Manager</span>
+                <span className="designation">Developer</span>
               </div>
             </div>
           </div>
@@ -49,7 +54,7 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Jerome Bell</Link>
+                  <Link href="/our-team/single-team">Dian Candra Pribadi</Link>
                 </h4>
                 <span className="designation">Lead Research</span>
                 <span className="designation">Producer</span>

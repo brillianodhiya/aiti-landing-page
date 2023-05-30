@@ -33,7 +33,7 @@ const CenterUp = () => {
                 <span className="number count">3</span>
                 <span className="symbol">+</span>
               </div>
-              <h6 className="title">Tahun perjalan</h6>
+              <h6 className="title">Tahun Berjalan</h6>
             </div>
           </div>
           <div

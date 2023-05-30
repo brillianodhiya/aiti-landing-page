@@ -11,10 +11,10 @@ export const Banner = () => {
           data-sal-duration="1000"
           data-sal-delay="300"
         >
-          <h1 className="title h2">Meet talent &amp; experience</h1>
+          <h1 className="title h2">Tim hebat &amp; berpengalaman</h1>
           <p>
-            Grow your business online by awesomely designed mobile apps that
-            fits all types.
+            Kami adalah tim yang berdedikasi untuk memberikan solusi digital
+            kreatif untuk bisnis Anda.
           </p>
         </div>
         <div

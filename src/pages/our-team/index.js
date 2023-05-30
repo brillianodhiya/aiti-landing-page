@@ -36,7 +36,7 @@ const OurTeam = () => {
       <Banner />
       <ExpertsArea />
       <TeamArea />
-      <AboutArea />
+      {/* <AboutArea /> */}
       {/*=====================================*/}
       {/*=     Call To Action Area Start     =*/}
       {/*=====================================*/}
