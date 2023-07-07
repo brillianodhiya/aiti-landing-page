@@ -18,12 +18,12 @@ export const TeamArea = () => {
         </div>
         <div className="row">
           <div className="col-xl-3 col-sm-6">
-            <div className="team-grid active">
+            <div className="team-grid">
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
                     src="/assets/media/team/brilli.png"
-                    alt="CEO"
+                    alt="Brilli D.U."
                     width={128}
                     height={128}
                   />
@@ -31,12 +31,10 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">
-                    Brilliano Dhiya Ulhaq
-                  </Link>
+                  <Link href="/our-team/single-team">Brilliano D.U.</Link>
                 </h4>
                 <span className="designation">Project Manager</span>
-                <span className="designation">Developer</span>
+                <span className="designation">Frontend Developer</span>
               </div>
             </div>
           </div>
@@ -45,8 +43,8 @@ export const TeamArea = () => {
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
-                    src="/assets/media/team/team-2.png"
-                    alt="Team Member"
+                    src="/assets/media/team/dian.jpg"
+                    alt="Dian Candra P."
                     width={128}
                     height={128}
                   />
@@ -54,10 +52,10 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Dian Candra Pribadi</Link>
+                  <Link href="/our-team/single-team">Dian Candra P.</Link>
                 </h4>
-                <span className="designation">Lead Research</span>
-                <span className="designation">Producer</span>
+                <span className="designation">Lead Project</span>
+                <span className="designation">Fullstack Developer</span>
               </div>
             </div>
           </div>
@@ -66,8 +64,8 @@ export const TeamArea = () => {
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
-                    src="/assets/media/team/team-3.png"
-                    alt="Team Member"
+                    src="/assets/media/team/hakim3.jpg"
+                    alt="Hakim N.R."
                     width={128}
                     height={128}
                   />
@@ -75,10 +73,10 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Darlene Robertson</Link>
+                  <Link href="/our-team/single-team">Hakim N.R.</Link>
                 </h4>
-                <span className="designation">Implementation</span>
-                <span className="designation">Specialist</span>
+                <span className="designation">3D Designer</span>
+                <span className="designation">Wordpress Developer</span>
               </div>
             </div>
           </div>
@@ -87,8 +85,8 @@ export const TeamArea = () => {
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
-                    src="/assets/media/team/team-4.png"
-                    alt="Team Member"
+                    src="/assets/media/team/aulia.jpg"
+                    alt="Aulia Z.I."
                     width={128}
                     height={128}
                   />
@@ -96,10 +94,10 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Marvin McKinney</Link>
+                  <Link href="/our-team/single-team">Aulia Zulfa I.</Link>
                 </h4>
-                <span className="designation">Forward Interactions</span>
-                <span className="designation">Developer</span>
+                <span className="designation">Lead Designer</span>
+                <span className="designation">Ilustrator</span>
               </div>
             </div>
           </div>
@@ -108,8 +106,8 @@ export const TeamArea = () => {
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
-                    src="/assets/media/team/team-5.png"
-                    alt="Team Member"
+                    src="/assets/media/team/raka.jpg"
+                    alt="Raka Raka N."
                     width={128}
                     height={128}
                   />
@@ -117,10 +115,10 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Ralph Edwards</Link>
+                  <Link href="/our-team/single-team">Reza Raka N.</Link>
                 </h4>
-                <span className="designation">Communications</span>
-                <span className="designation">Strategist</span>
+                <span className="designation">Mobile Developer</span>
+                <span className="designation">Frontend Developer</span>
               </div>
             </div>
           </div>
@@ -129,7 +127,7 @@ export const TeamArea = () => {
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
                   <Image
-                    src="/assets/media/team/team-6.png"
+                    src="/assets/media/team/ahyar.jpg"
                     alt="Team Member"
                     width={128}
                     height={128}
@@ -138,14 +136,14 @@ export const TeamArea = () => {
               </div>
               <div className="content">
                 <h4 className="title">
-                  <Link href="/our-team/single-team">Kathryn Murphy</Link>
+                  <Link href="/our-team/single-team">Ahmad Taqiudin A.</Link>
                 </h4>
-                <span className="designation">Lead Research</span>
-                <span className="designation">Producer</span>
+                <span className="designation">Mobile Developer</span>
+                <span className="designation">IT Research</span>
               </div>
             </div>
           </div>
-          <div className="col-xl-3 col-sm-6">
+          {/* <div className="col-xl-3 col-sm-6">
             <div className="team-grid">
               <div className="thumbnail">
                 <Link href="/our-team/single-team">
@@ -186,7 +184,7 @@ export const TeamArea = () => {
                 <span className="designation">Developer</span>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <ul className="list-unstyled shape-group-10">

@@ -39,7 +39,7 @@ const Footer = () => {
                   <i className="fab fa-pinterest-p" />
                 </Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link
                   href="https://www.linkedin.com/in/brilliano-dhiya-ulhaq-44b196194/"
                   data-sal="slide-up"
@@ -48,10 +48,10 @@ const Footer = () => {
                 >
                   <i className="fab fa-linkedin-in" />
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
-                  href="https://www.instagram.com/brilliano_d/"
+                  href="https://www.instagram.com/aiti_lokal/"
                   data-sal="slide-up"
                   data-sal-duration={500}
                   data-sal-delay={500}
@@ -164,39 +164,25 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-3">
+                <div className="col-sm-6">
                   <div className="footer-widget">
-                    <h6 className="widget-title">About</h6>
+                    <h6
+                      className="widget-title"
+                      style={{
+                        fontSize: "28px",
+                      }}
+                    >
+                      Butuh diskusi <br /> dengan tim kami?
+                    </h6>
                     <div className="footer-menu-link">
-                      <ul className="list-unstyled">
-                        <li>
-                          <Link href="/blog">Blog</Link>
-                        </li>
-                        <li>
-                          <Link href="/case-study">Studi Kasus</Link>
-                        </li>
-                        <li>
-                          <Link href="/project">Portfolio</Link>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-sm-3">
-                  <div className="footer-widget">
-                    <h6 className="widget-title">Support</h6>
-                    <div className="footer-menu-link">
-                      <ul className="list-unstyled">
-                        <li>
-                          <Link href="/contact">Contact</Link>
-                        </li>
-                        <li>
-                          <Link href="/privacy-policy">Privacy Policy</Link>
-                        </li>
-                        <li>
-                          <Link href="/terms-of-use">Terms of Use</Link>
-                        </li>
-                      </ul>
+                      <iframe
+                        src="https://discord.com/widget?id=1101411459294056478&theme=dark"
+                        width="350"
+                        height="200"
+                        allowtransparency="true"
+                        frameborder="0"
+                        sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
+                      ></iframe>
                     </div>
                   </div>
                 </div>
@@ -215,7 +201,9 @@ const Footer = () => {
               <div className="footer-copyright">
                 <span className="copyright-text">
                   © {dayjs().format("YYYY")}. Made by ❤{" "}
-                  <Link href="https://instagram.com/">AITI Team.</Link>.
+                  <Link href="https://instagram.com/aiti_lokal" target="_blank">
+                    AITI Team.
+                  </Link>
                 </span>
               </div>
             </div>

@@ -117,11 +117,11 @@ const Testimonial = () => {
                     width={50}
                     height={50}
                     src="/assets/media/testimonial/hafidh.jpg"
-                    alt="Review Hanfidh Hanan"
+                    alt="Review Hafidh Hanan"
                   />
                 </div>
                 <div className="content">
-                  <span className="name">Hanfidh Hanan</span>
+                  <span className="name">Hafidh Hanan</span>
                   <span className="designation">Wirausaha</span>
                 </div>
               </div>
