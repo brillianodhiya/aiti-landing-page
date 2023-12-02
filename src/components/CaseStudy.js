@@ -19,7 +19,7 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Studi Kasus Terbaru</span>
+                    <span className="subtitle">Proyek Terbaru</span>
                     <h2
                       className="title"
                       style={{
@@ -64,7 +64,7 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Studi Kasus Populer</span>
+                    <span className="subtitle">Proyek Terbaru</span>
                     <h2
                       className="title"
                       style={{
@@ -110,22 +110,23 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Studi Kasus Populer</span>
+                    <span className="subtitle">Proyek Terbaru</span>
                     <h2
                       className="title"
                       style={{
                         fontWeight: "bold",
                       }}
                     >
-                      Aplikasi Absensi Berbasis Web dan Mobile
+                      Aplikasi Penjemputan Zakat
                     </h2>
                     <p>
-                      Aplikasi ini dapat digunakan untuk melakukan absensi
-                      karyawan secara online.
+                      Aplikasi ini dapat digunakan untuk melacak serta melakukan
+                      pelaporan penjemputan ziswaf.
                     </p>
                     <p>
-                      Aplikasi ini juga dapat digunakan untuk mengelola data
-                      karyawan, data absensi, dan data lembur.
+                      Aplikasi ini juga dapat digunakan untuk melacak absensi
+                      dari petugas beserta lokasi dari setiap titik penjemputan
+                      nya.
                     </p>
                     <Link
                       href="/single-case-study"
@@ -137,17 +138,17 @@ const CaseStudy = () => {
                   <div className="case-study-counterup">
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">25</span>
+                        <span className="number count">100</span>
                         <span className="symbol">+</span>
                       </h2>
                       <span className="counter-title">Karyawan</span>
                     </div>
                     <div className="single-counterup">
                       <h2 className="count-number">
-                        <span className="number count">1</span>
+                        <span className="number count">500+</span>
                         <span className="symbol"></span>
                       </h2>
-                      <span className="counter-title">Perusahaan</span>
+                      <span className="counter-title">Kotak Amal</span>
                     </div>
                   </div>
                 </div>
@@ -168,8 +169,11 @@ const CaseStudy = () => {
                   <Image
                     width={740}
                     height={740}
-                    src="/assets/media/others/case-study-4.png"
-                    alt="travel"
+                    src="/assets/media/others/15960.jpg"
+                    alt="Smartmeter"
+                    style={{
+                      borderRadius: "36px",
+                    }}
                   />
                 </div>
               </div>
@@ -178,8 +182,9 @@ const CaseStudy = () => {
                   <Image
                     width={740}
                     height={740}
-                    src="/assets/media/others/case-study-5.png"
-                    alt="travel"
+                    src="/assets/media/others/marelia3.png"
+                    alt="vtuber-marelia"
+                    className="icon-service2"
                   />
                 </div>
               </div>
@@ -188,8 +193,11 @@ const CaseStudy = () => {
                   <Image
                     width={740}
                     height={740}
-                    src="/assets/media/others/case-study-6.png"
-                    alt="travel"
+                    src="/assets/media/others/aplikasiizakat.png"
+                    alt="absensi"
+                    style={{
+                      borderRadius: "36px",
+                    }}
                   />
                 </div>
               </div>
