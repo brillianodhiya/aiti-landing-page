@@ -89,11 +89,11 @@ const Testimonial = () => {
                     width={50}
                     height={50}
                     src="/assets/media/testimonial/testimoni3.png"
-                    alt="Review Vtuber Bellavia"
+                    alt="Review Vtuber  Marilia Krabbe"
                   />
                 </div>
                 <div className="content">
-                  <span className="name">Bellavia</span>
+                  <span className="name"> Marilia Krabbe</span>
                   <span className="designation">VTuber</span>
                 </div>
               </div>

@@ -27,23 +27,25 @@ const ServiceArea = () => {
             <div className="services-grid active">
               <div className="thumbnail">
                 <Image
-                  width={95}
-                  height={90}
-                  src="/assets/media/icon/icon-1.png"
+                  width={200}
+                  height={200}
+                  src="/assets/media/icon/uiux.png"
                   alt="icon"
+                  className="icon-service"
                 />
               </div>
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/design">Desain</Link>
+                  <Link href="/service/ui-ux-design">Desain UI/UX</Link>
                 </h5>
                 <p>
-                  Proses Menciptakan solusi visual atau fungsional untuk suatu
-                  produk atau proyek dengan mempertimbangkan elemen-elemen
-                  seperti estetika, fungsionalitas, dan keselamatan.
+                  Desain UI/UX Dengan pengetahuan dan keterampilan yang mendalam
+                  di bidang desain UI/UX, kami dapat memberikan solusi yang
+                  menarik, mudah digunakan, dan sesuai dengan tujuan pengguna
+                  dan bisnis Anda.
                 </p>
-                <Link href="/service/design" className="more-btn">
+                <Link href="/service/ui-ux-design" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
@@ -58,9 +60,10 @@ const ServiceArea = () => {
             <div className="services-grid">
               <div className="thumbnail">
                 <Image
-                  width={67}
-                  height={90}
-                  src="/assets/media/icon/icon-2.png"
+                  width={200}
+                  height={200}
+                  className="icon-service"
+                  src="/assets/media/icon/software-developemt.png"
                   alt="icon"
                 />
               </div>
@@ -71,8 +74,8 @@ const ServiceArea = () => {
                 </h5>
                 <p>
                   Dengan pengalaman kerja yang luas dan berbagai keahlian di
-                  bidang pengembangan aplikasi, kami dapat memberikan solusi
-                  yang dapat dipercaya dan sesuai dengan anggaran Anda.
+                  bidang pengembangan aplikasi baik, kami dapat memberikan
+                  solusi yang dapat dipercaya dan sesuai dengan anggaran Anda.
                 </p>
                 <Link href="/service/development" className="more-btn">
                   Cari tahu lebih lanjut
@@ -89,16 +92,17 @@ const ServiceArea = () => {
             <div className="services-grid">
               <div className="thumbnail">
                 <Image
-                  width={86}
-                  height={90}
-                  src="/assets/media/icon/icon-3.png"
+                  width={200}
+                  height={200}
+                  src="/assets/media/icon/illustration.png"
                   alt="icon"
+                  className="icon-service"
                 />
               </div>
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/marketing">Illustrasi</Link>
+                  <Link href="/service/illustration">Illustrasi</Link>
                 </h5>
                 <p>
                   Dengan pengalaman dalam menciptakan berbagai jenis gambar,
@@ -106,7 +110,7 @@ const ServiceArea = () => {
                   kami siap membantu Anda memberikan pesan Anda dengan cara yang
                   paling efektif.
                 </p>
-                <Link href="/service/marketing" className="more-btn">
+                <Link href="/service/illustration" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
@@ -121,23 +125,24 @@ const ServiceArea = () => {
             <div className="services-grid">
               <div className="thumbnail">
                 <Image
-                  width={102}
-                  height={90}
-                  src="/assets/media/icon/icon-4.png"
+                  width={200}
+                  height={200}
+                  src="/assets/media/icon/9717283.png"
                   alt="icon"
+                  className="icon-service"
                 />
               </div>
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/business">3D Modeling</Link>
+                  <Link href="/service/3d-modeling">3D Modeling</Link>
                 </h5>
                 <p>
                   Layanan 3D Modeling kami mencakup desain, modifikasi, edit,
                   dan konversi berbagai format file 3D. Kami menyediakan pilihan
                   fleksibel dalam hal gaya dan tingkat detail yang diinginkan.
                 </p>
-                <Link href="/service/business" className="more-btn">
+                <Link href="/service/3d-modeling" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
@@ -152,16 +157,17 @@ const ServiceArea = () => {
             <div className="services-grid">
               <div className="thumbnail">
                 <Image
-                  width={80}
-                  height={90}
-                  src="/assets/media/icon/icon-5.png"
+                  width={200}
+                  height={200}
+                  src="/assets/media/icon/l2d.png"
                   alt="icon"
+                  className="icon-service"
                 />
               </div>
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/technology">Karakter Live2D</Link>
+                  <Link href="/service/live-2d-character">Karakter Live2D</Link>
                 </h5>
                 <p>
                   Dengan karakter Live2D, Anda dapat memberikan pengalaman
@@ -169,13 +175,13 @@ const ServiceArea = () => {
                   hanya itu, produk anda akan terlihat lebih atraktif dan
                   menarik perhatian.
                 </p>
-                <Link href="/service/technology" className="more-btn">
+                <Link href="/service/live-2d-character" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
           </div>
-          {/* <div
+          <div
             className="col-lg-4 col-md-6"
             data-sal="slide-up"
             data-sal-duration={800}
@@ -184,27 +190,31 @@ const ServiceArea = () => {
             <div className="services-grid">
               <div className="thumbnail">
                 <Image
-                  width={102}
-                  height={90}
-                  src="/assets/media/icon/icon-6.png"
-                  alt="icon"
+                  width={200}
+                  height={200}
+                  src="/assets/media/icon/graphic-design3.png"
+                  alt="icon freepik-image"
+                  // className="for-blur"
+                  className="icon-service"
                 />
               </div>
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/content-strategy">Content strategy</Link>
+                  <Link href="/service/graphic-design">Desain Grafis</Link>
                 </h5>
                 <p>
-                  Simply drag and drop photos and videos into your workspace to
-                  automatically add them to your Collab Cloud library.
+                  Desain Grafis Dengan pengetahuan dan keterampilan yang
+                  mendalam di bidang desain grafis, kami dapat memberikan solusi
+                  yang menarik, informatif, dan persuasif untuk
+                  mengkomunikasikan pesan visual Anda.
                 </p>
-                <Link href="/service/content-strategy" className="more-btn">
-                  Find out more
+                <Link href="/service/graphic-design" className="more-btn">
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
       <ul className="list-unstyled shape-group-10">

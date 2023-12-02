@@ -1,0 +1,30 @@
+.for-blur {
+  filter: brightness(120%) contrast(120%);
+  /* object-fit: cover; */
+  /* object-position: center; */
+  image-rendering: high-quality;
+}
+
+.container-img-serviec {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.container-img-serviec img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+}
+
+.icon-service {
+  width: 50%;
+  /* height: 140px; */
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+  /* mix-blend-mode: color-burn; */
+}

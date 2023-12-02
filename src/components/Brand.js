@@ -121,9 +121,9 @@ const Brand = () => {
               }}
             >
               <Image
-                width={260}
-                height={133}
-                src="/assets/media/icon/solidjs.png"
+                width={80}
+                height={53}
+                src="/assets/media/icon/ant-design-logo-icon-png-svg-2749668208.png"
                 alt="SolidJs"
                 style={{
                   marginTop: "20px",
@@ -366,9 +366,9 @@ const Brand = () => {
               }}
             >
               <Image
-                width={80}
-                height={80}
-                src="/assets/media/icon/ibispaint.png"
+                width={90}
+                height={90}
+                src="/assets/media/icon/tailwindcss-icon.svg"
                 alt="Ibis Paint"
                 style={{
                   marginTop: "40px",

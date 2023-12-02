@@ -19,7 +19,7 @@ const CaseStudy = () => {
               <div className="slick-slide">
                 <div className="case-study-featured">
                   <div className="section-heading heading-left">
-                    <span className="subtitle">Studi Kasus Populer</span>
+                    <span className="subtitle">Studi Kasus Terbaru</span>
                     <h2
                       className="title"
                       style={{
@@ -71,7 +71,7 @@ const CaseStudy = () => {
                         fontWeight: "bold",
                       }}
                     >
-                      Live2d VTuber Project - Bellavia
+                      Live2d VTuber Project - Marilia Krabbe
                     </h2>
                     <p>
                       VTuber adalah sebutan untuk Virtual Youtuber, yaitu
@@ -79,7 +79,8 @@ const CaseStudy = () => {
                       representasi dirinya.
                     </p>
                     <p>
-                      Kami membuat avatar 2D untuk VTuber yang bernama Bellavia.
+                      Kami membuat avatar 2D untuk VTuber yang bernama Marilia
+                      Krabbe.
                     </p>
                     <Link
                       href="/single-case-study"
