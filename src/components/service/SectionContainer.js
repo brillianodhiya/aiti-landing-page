@@ -17,7 +17,7 @@ export const SectionContainer = () => {
         <ul className="nav nav-pills">
           <li className="nav-item">
             <a className="nav-link" href="#section1">
-              Design
+              Desain
             </a>
           </li>
           <li className="nav-item">
@@ -25,7 +25,7 @@ export const SectionContainer = () => {
               Development
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="#section3">
               Online Marketing
             </a>
@@ -44,7 +44,7 @@ export const SectionContainer = () => {
             <a className="nav-link" href="#section6">
               Content Strategy
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

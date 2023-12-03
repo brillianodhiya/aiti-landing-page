@@ -9,7 +9,7 @@ export const DesignSection = () => {
         <div className="container">
           <div className="section-heading heading-left">
             <span className="subtitle">Service</span>
-            <h2 className="title">Design</h2>
+            <h2 className="title">Desain</h2>
           </div>
           <div className="row">
             <div
@@ -29,15 +29,13 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <Link href="/service/service-design">
-                      Logo &amp; Branding
-                    </Link>
+                    <Link href="/service/ui-design">Desain UI/UX</Link>
                   </h5>
                   <p>
                     We design professional looking yet simple Logo. Our designs
                     are search engine and user friendly.
                   </p>
-                  <Link href="/service/service-design" className="more-btn">
+                  <Link href="/service/ui-design" className="more-btn">
                     Find out more
                   </Link>
                 </div>
@@ -60,13 +58,13 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <Link href="/service/service-design">Website Design</Link>
+                    <Link href="/service/graphic-design">Desain Grafis</Link>
                   </h5>
                   <p>
                     We design professional looking yet simple websites. Our
                     designs are search engine and user friendly.
                   </p>
-                  <Link href="/service/service-design" className="more-btn">
+                  <Link href="/service/graphic-design" className="more-btn">
                     Find out more
                   </Link>
                 </div>
@@ -89,15 +87,13 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <Link href="/service/service-design">
-                      Mobile app design
-                    </Link>
+                    <Link href="/service/3d-modeling">3D Modeling</Link>
                   </h5>
                   <p>
                     We design professional looking yet Mobile Apps. Our designs
                     are search engine and user friendly.
                   </p>
-                  <Link href="/service/service-design" className="more-btn">
+                  <Link href="/service/3d-modeling" className="more-btn">
                     Find out more
                   </Link>
                 </div>
@@ -120,15 +116,13 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <Link href="/service/service-design">
-                      Graphic/print design
-                    </Link>
+                    <Link href="/service/ilustrasi">Ilustrasi</Link>
                   </h5>
                   <p>
                     From simple Content Management System to complex eCommerce
                     developer, we cover it all.
                   </p>
-                  <Link href="/service/service-design" className="more-btn">
+                  <Link href="/service/ilustrasi" className="more-btn">
                     Find out more
                   </Link>
                 </div>
@@ -151,13 +145,13 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <Link href="/service/service-design">Video production</Link>
+                    <Link href="/service/live2d-design">Live2d Desain</Link>
                   </h5>
                   <p>
                     From simple Content Management System to complex eCommerce
                     developer, we cover it all.
                   </p>
-                  <Link href="/service/service-design" className="more-btn">
+                  <Link href="/service/live2d-design" className="more-btn">
                     Find out more
                   </Link>
                 </div>
