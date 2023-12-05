@@ -29,7 +29,7 @@ const Page = () => {
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="assets/media/Asset_1.png"
+          href="assets/media/Asset_1.svg"
         />
       </Head>
 
