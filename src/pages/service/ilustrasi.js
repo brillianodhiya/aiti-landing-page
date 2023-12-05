@@ -5,6 +5,7 @@ import { Banner } from "@aiti/components/service/Banner";
 import Footer from "@aiti/components/Footer";
 import OffCanvas from "@aiti/components/OffCanvas";
 import CallToAction from "@aiti/components/CallToAction";
+import { ServiceBanner } from "@aiti/components/service/ServiceBanner";
 
 const Page = () => {
   return (
@@ -32,7 +33,7 @@ const Page = () => {
         />
       </Head>
 
-      <Banner />
+      <ServiceBanner title={"Ilustrasi"} />
 
       {/*=====================================*/}
       {/*=     Call To Action Area Start     =*/}

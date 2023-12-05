@@ -29,7 +29,7 @@ export const DevelopmentSection = () => {
               <div className="content">
                 <h5 className="title">
                   <Link href="/service/content-management">
-                    Content Managment
+                    Content Management
                   </Link>
                 </h5>
                 <p>
