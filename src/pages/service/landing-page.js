@@ -2,18 +2,12 @@ import Head from "next/head";
 import React from "react";
 import CallHooks from "@aiti/components/CallHooks";
 import { Banner } from "@aiti/components/service/Banner";
-import { SectionContainer } from "@aiti/components/service/SectionContainer";
-import { DesignSection } from "@aiti/components/service/DesignSection";
 import Footer from "@aiti/components/Footer";
 import OffCanvas from "@aiti/components/OffCanvas";
-import { DevelopmentSection } from "@aiti/components/service/DevelopmentSection";
-import { OnlineMarketingSection } from "@aiti/components/service/OnlineMarketingSection";
-import { BusinessSection } from "@aiti/components/service/BusinessSection";
-import { TechnologySection } from "@aiti/components/service/TechnologySection";
-import { ContentStrategy } from "@aiti/components/service/ContentStrategy";
 import CallToAction from "@aiti/components/CallToAction";
+import { ServiceBanner } from "@aiti/components/service/ServiceBanner";
 
-const Services = () => {
+const Page = () => {
   return (
     <>
       <CallHooks />
@@ -39,16 +33,8 @@ const Services = () => {
         />
       </Head>
 
-      <Banner />
-      <div className="service-scroll-navigation-area">
-        <SectionContainer />
-        <DesignSection />
-        <DevelopmentSection />
-        {/* <OnlineMarketingSection />
-        <BusinessSection />
-        <TechnologySection />
-        <ContentStrategy /> */}
-      </div>
+      <ServiceBanner title={"Landing Page"} />
+
       {/*=====================================*/}
       {/*=     Call To Action Area Start     =*/}
       {/*=====================================*/}
@@ -65,4 +51,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Page;
