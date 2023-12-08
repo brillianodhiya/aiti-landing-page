@@ -37,7 +37,7 @@ const Pricing = () => {
                   <div className="yearly-pricing">
                     <span className="subtitle">mulai dari</span>
                     <br />
-                    <span className="amount">Rp350K,-</span>
+                    <span className="amount">Rp490K,-</span>
                   </div>
                 </div>
                 <div className="pricing-btn">
