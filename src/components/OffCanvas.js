@@ -39,9 +39,9 @@ const OffCanvas = () => {
               <li>
                 <Link href="/service">Service</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/blog">Blog</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/our-team">Our Team</Link>
               </li>
@@ -68,10 +68,10 @@ const OffCanvas = () => {
                     <i className="fas fa-phone" />
                     +62 8515-5436-866
                   </a>
-                  <a className="tel" href="tel:6288907002408">
+                  {/* <a className="tel" href="tel:6288907002408">
                     <i className="fas fa-phone" />
                     +62 8890-7002-408
-                  </a>
+                  </a> */}
                   {/* <a className="tel" href="tel:12125553333">
                           <i className="fas fa-fax" />
                           (121) 255-53333

@@ -104,7 +104,7 @@ const Headers = () => {
                       Portfolio
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       className={router.pathname == "/blog" ? "active" : ""}
                       href={"/blog"}
@@ -112,7 +112,7 @@ const Headers = () => {
                     >
                       Blog
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link
                       className={router.pathname == "/our-team" ? "active" : ""}
