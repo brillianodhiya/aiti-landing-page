@@ -116,13 +116,13 @@ export const DesignSection = () => {
                 </div>
                 <div className="content">
                   <h5 className="title">
-                    <Link href="/service/ilustrasi">Ilustrasi</Link>
+                    <Link href="/service/illustration">Ilustrasi</Link>
                   </h5>
                   <p>
                     From simple Content Management System to complex eCommerce
                     developer, we cover it all.
                   </p>
-                  <Link href="/service/ilustrasi" className="more-btn">
+                  <Link href="/service/illustration" className="more-btn">
                     Find out more
                   </Link>
                 </div>

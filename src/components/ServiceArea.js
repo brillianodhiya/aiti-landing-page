@@ -37,7 +37,7 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/ui-ux-design">Desain UI/UX</Link>
+                  <Link href="/service/ui-design">Desain UI/UX</Link>
                 </h5>
                 <p>
                   Desain UI/UX Dengan pengetahuan dan keterampilan yang mendalam
@@ -45,7 +45,7 @@ const ServiceArea = () => {
                   menarik, mudah digunakan, dan sesuai dengan tujuan pengguna
                   dan bisnis Anda.
                 </p>
-                <Link href="/service/ui-ux-design" className="more-btn">
+                <Link href="/service/ui-design" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
@@ -70,14 +70,14 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="service/development">Pengembangan Aplikasi</Link>
+                  <Link href="service/mobile-app">Pengembangan Aplikasi</Link>
                 </h5>
                 <p>
                   Dengan pengalaman kerja yang luas dan berbagai keahlian di
                   bidang pengembangan aplikasi baik, kami dapat memberikan
                   solusi yang dapat dipercaya dan sesuai dengan anggaran Anda.
                 </p>
-                <Link href="/service/development" className="more-btn">
+                <Link href="/service/mobile-app" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
@@ -167,7 +167,7 @@ const ServiceArea = () => {
               <div className="content">
                 <h5 className="title">
                   {" "}
-                  <Link href="/service/live-2d-character">Karakter Live2D</Link>
+                  <Link href="/service/live2d-character">Karakter Live2D</Link>
                 </h5>
                 <p>
                   Dengan karakter Live2D, Anda dapat memberikan pengalaman
@@ -175,7 +175,7 @@ const ServiceArea = () => {
                   hanya itu, produk anda akan terlihat lebih atraktif dan
                   menarik perhatian.
                 </p>
-                <Link href="/service/live-2d-character" className="more-btn">
+                <Link href="/service/live2d-character" className="more-btn">
                   Cari tahu lebih lanjut
                 </Link>
               </div>
