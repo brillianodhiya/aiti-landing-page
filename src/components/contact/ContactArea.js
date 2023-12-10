@@ -1,6 +1,25 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 export const ContactArea = () => {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // const JSONdata = JSON.stringify(data);
+
+    // await Axios.post("https://smtp.we-iots.com/api/send/email", data);
+    window.open(
+      `mailto:aitilokal@gmail.com?subject=${
+        event.target.email.value +
+        " | " +
+        event.target.name.value +
+        ": Send Email from contact Us"
+      }&body=${event.target.message.value}`,
+      "/blank"
+    );
+  };
+
   return (
     <section className="section section-padding">
       <div className="container">
@@ -11,8 +30,10 @@ export const ContactArea = () => {
                 Ambil langkah pertama untuk proyek digital Anda
               </h3>
               <form
-                method="POST"
-                action="mail.php"
+                // method="POST"
+                // action="mail.php"
+                onSubmit={handleSubmit}
+                name="formcontactus"
                 className="axil-contact-form"
               >
                 <div className="form-group">
@@ -20,7 +41,8 @@ export const ContactArea = () => {
                   <input
                     type="text"
                     className="form-control"
-                    name="contact-name"
+                    name="name"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -28,26 +50,20 @@ export const ContactArea = () => {
                   <input
                     type="email"
                     className="form-control"
-                    name="contact-email"
+                    name="email"
+                    required
                   />
                 </div>
-                <div className="form-group">
-                  <label>Company</label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    name="contact-company"
-                    placeholder="tidak wajib"
-                  />
-                </div>
+
                 <div className="form-group mb--40">
                   <label>Bagaimana kami dapat membantu Anda?</label>
                   <textarea
-                    name="contact-message"
+                    name="message"
                     id="contact-message"
                     className="form-control textarea"
                     cols="30"
                     rows="4"
+                    required
                   ></textarea>
                 </div>
                 <div className="form-group">
@@ -84,7 +100,7 @@ export const ContactArea = () => {
                   +62 851-5543-6866
                 </a>
               </h4>
-              <br />
+              {/* <br />
               <h5
                 className="subtitle"
                 style={{
@@ -98,7 +114,7 @@ export const ContactArea = () => {
                 <a target="_blank" href="https://wa.me/6285175016160">
                   +62 851-7501-6160
                 </a>
-              </h4>
+              </h4> */}
             </div>
             <div className="contact-info mb--30">
               <h4 className="title">Email</h4>
@@ -108,7 +124,7 @@ export const ContactArea = () => {
                 Whatsapp.
               </p>
               <h4 className="phone-number">
-                <a href="mailto:brillidhiya@gmail.com">brillidhiya@gmail.com</a>
+                <a href="mailto:aitilokal@gmail.com">aitilokal@gmail.com</a>
               </h4>
             </div>
           </div>

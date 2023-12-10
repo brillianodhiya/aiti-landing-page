@@ -1,7 +1,26 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
 
 const About = () => {
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    // const JSONdata = JSON.stringify(data);
+
+    // await Axios.post("https://smtp.we-iots.com/api/send/email", data);
+    window.open(
+      `mailto:aitilokal@gmail.com?subject=${
+        event.target.email.value +
+        " | " +
+        event.target.name.value +
+        ": Send Email from contact Us"
+      }&body=${event.target.message.value}`,
+      "/blank"
+    );
+  };
+
   return (
     <section className="section section-padding-equal bg-color-light">
       <div className="container">
@@ -43,8 +62,8 @@ const About = () => {
                 Ambil langkah pertama untuk proyek digital Anda
               </h3>
               <form
-                method="POST"
-                action="mail.php"
+                onSubmit={handleSubmit}
+                name="formcontactus"
                 className="axil-contact-form"
               >
                 <div className="form-group">
@@ -52,8 +71,9 @@ const About = () => {
                   <input
                     type="text"
                     className="form-control"
-                    name="contact-name"
+                    name="name"
                     placeholder="Fulan"
+                    required
                   />
                 </div>
                 <div className="form-group">
@@ -61,18 +81,21 @@ const About = () => {
                   <input
                     type="email"
                     className="form-control"
-                    name="contact-email"
+                    name="email"
                     placeholder="example@mail.com"
+                    required
                   />
                 </div>
                 <div className="form-group mb--40">
-                  <label>Phone</label>
-                  <input
-                    type="tel"
-                    className="form-control"
-                    name="contact-company"
-                    placeholder={+6288907002408}
-                  />
+                  <label>Bagaimana kami dapat membantu Anda?</label>
+                  <textarea
+                    name="message"
+                    id="contact-message"
+                    className="form-control textarea"
+                    cols="30"
+                    rows="4"
+                    required
+                  ></textarea>
                 </div>
                 <div className="form-group">
                   <button
