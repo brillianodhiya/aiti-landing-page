@@ -16,10 +16,6 @@ import Head from "next/head";
 import React from "react";
 
 export default function Home() {
-  // React.useEffect(() => {
-  //   console.log(window.$(".slick-slider"));
-  // }, []);
-
   return (
     <>
       <CallHooks />
