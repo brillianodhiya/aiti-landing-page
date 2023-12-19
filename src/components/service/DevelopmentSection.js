@@ -32,12 +32,12 @@ export const DevelopmentSection = () => {
                     Content Management
                   </Link>
                 </h5>
-                <p>
-                  We design professional looking yet simple Logo. Our designs
-                  are search engine and user friendly.
+                <p title="kami menyediakan solusi efisien untuk mengelola dan menyusun konten digital secara sistematis.">
+                  kami menyediakan solusi efisien untuk mengelola dan menyusun
+                  konten digital secara sistematis.
                 </p>
                 <Link href="/service/content-management" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -61,12 +61,12 @@ export const DevelopmentSection = () => {
                 <h5 className="title">
                   <Link href="/service/mobile-app">Mobile app development</Link>
                 </h5>
-                <p>
-                  We design professional looking yet simple websites. Our
-                  designs are search engine and user friendly.
+                <p title="Menyediakan  pengembangan aplikasi mobile yang berkualitas sebagai solusi.">
+                  Menyediakan pengembangan aplikasi mobile yang berkualitas
+                  sebagai solusi.
                 </p>
                 <Link href="/service/mobile-app" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -90,12 +90,12 @@ export const DevelopmentSection = () => {
                 <h5 className="title">
                   <Link href="/service/e-commerce">eCommerce</Link>
                 </h5>
-                <p>
-                  We design professional looking yet Mobile Apps. Our designs
-                  are search engine and user friendly.
+                <p title="Memberikan solusi eCommerce yang komprehensif untuk pertumbuhan bisnis online.">
+                  Memberikan solusi eCommerce yang komprehensif untuk
+                  pertumbuhan bisnis online.
                 </p>
                 <Link href="/service/e-commerce" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -119,12 +119,12 @@ export const DevelopmentSection = () => {
                 <h5 className="title">
                   <Link href="/service/iot-monitoring">IoT Monitoring</Link>
                 </h5>
-                <p>
-                  We design professional looking yet simple Logo. Our designs
-                  are search engine and user friendly.
+                <p title="Menyediakan solusi monitoring dan pengelolaan Internet of Things (IoT) untuk pemantauan dan pengontrolan yang efisien.">
+                  Menyediakan solusi monitoring dan pengelolaan Internet of
+                  Things (IoT) untuk pemantauan dan pengontrolan yang efisien.
                 </p>
                 <Link href="/service/iot-monitoring" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -148,12 +148,12 @@ export const DevelopmentSection = () => {
                 <h5 className="title">
                   <Link href="/service/blogger">Blogger</Link>
                 </h5>
-                <p>
-                  We design professional looking yet simple websites. Our
-                  designs are search engine and user friendly.
+                <p title="Menyediakan layanan pembuatan konten blog yang menarik dan relevan.">
+                  Menyediakan layanan pembuatan konten blog yang menarik dan
+                  relevan.
                 </p>
                 <Link href="/service/blogger" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -177,12 +177,12 @@ export const DevelopmentSection = () => {
                 <h5 className="title">
                   <Link href="/service/invitation">Undangan</Link>
                 </h5>
-                <p>
-                  We design professional looking yet Mobile Apps. Our designs
-                  are search engine and user friendly.
+                <p title="Menyediakan berbagai desain undangan kreatif untuk acara-acara khusus.">
+                  Menyediakan berbagai desain undangan kreatif untuk acara-acara
+                  khusus.
                 </p>
                 <Link href="/service/invitation" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
@@ -206,12 +206,12 @@ export const DevelopmentSection = () => {
                 <h5 className="title">
                   <Link href="/service/landing-page">Landing Page</Link>
                 </h5>
-                <p>
-                  We design professional looking yet Mobile Apps. Our designs
-                  are search engine and user friendly.
+                <p title="Memberikan desain landing page yang menarik dan efektif untuk meningkatkan konversi.">
+                  Memberikan desain landing page yang menarik dan efektif untuk
+                  meningkatkan konversi.
                 </p>
                 <Link href="/service/landing-page" className="more-btn">
-                  Find out more
+                  Cari tahu lebih lanjut
                 </Link>
               </div>
             </div>
