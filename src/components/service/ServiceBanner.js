@@ -12,8 +12,8 @@ export const ServiceBanner = ({ title }) => {
         >
           <h1 className="title h2">{title}</h1>
           <p>
-            Give your business a unique logo to stand out from crowd. We’ll
-            create logo specifically for your company.
+            Layanan kami membantu bisnis Anda berkembang dengan cepat dan
+            efisien. Kami memiliki tim yang berdedikasi dan berpengalaman.
           </p>
         </div>
         <div
